@@ -17,6 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = RANDOM_COLOR;
+    
+    self.navigationItem.title = @"首页(3)";
+    [self.navigationController.tabBarItem setBadgeValue:@"300"];
+    
     // Do any additional setup after loading the view.
 }
 

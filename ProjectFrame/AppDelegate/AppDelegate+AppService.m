@@ -1,31 +1,23 @@
 //
-//  AppDelegate.m
+//  AppDelegate+AppService.m
 //  ProjectFrame
 //
 //  Created by 胜炫电子 on 2017/9/26.
 //  Copyright © 2017年 BlueSkyer-25. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "AppDelegate+AppService.h"
 
-#import "JDLTabbarController.h"
-#import "JDLTabbarPlusButton.h"
+@implementation AppDelegate (AppService)
 
-@interface AppDelegate ()<UITabBarControllerDelegate, CYLTabBarControllerDelegate>
+#pragma mark ————— 初始化window —————
+-(void)initWindow{
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    [self.window makeKeyAndVisible];
+}
 
-@end
-
-@implementation AppDelegate
-
-
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-   
-    //适配iOS11
-    [self adaptationNewIOS];
-    
-    // 设置主窗口,并设置根控制器
-    self.window = [[UIWindow alloc]init];
-    self.window.frame = [UIScreen mainScreen].bounds;
+#pragma mark 初始化Tabbar
+-(void)initTabbarController{
     
     //添加中间突出按钮
     [JDLTabbarPlusButton registerPlusButton];
@@ -33,29 +25,49 @@
     JDLTabbarController *tabBarControllerConfig = [[JDLTabbarController alloc] init];
     CYLTabBarController *tabBarController = tabBarControllerConfig.tabBarController;
     [self.window setRootViewController:tabBarController];
-    
     //设置tabbar样式
     [self setTabbarBadgeTypeWithTabbar:tabBarController];
     //设置导航样式
     [self customizeInterface];
-    
-    [self.window makeKeyAndVisible];
-    
-    return  YES;
 }
 
-#pragma remark 适配iOS11
--(void)adaptationNewIOS{
-    if (@available(ios 11.0,*)) {
-        UIScrollView.appearance.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
-        UITableView.appearance.estimatedRowHeight = 0;
-        UITableView.appearance.estimatedSectionFooterHeight = 0;
-        UITableView.appearance.estimatedSectionHeaderHeight = 0;
-    }
+#pragma mark ————— 网络状态监听 —————
+- (void)monitorNetworkStatus
+{
+    // 网络状态改变一次, networkStatusWithBlock就会响应一次
+//    [PPNetworkHelper networkStatusWithBlock:^(PPNetworkStatusType networkStatus) {
+//
+//        switch (networkStatus) {
+//                // 未知网络
+//            case PPNetworkStatusUnknown:
+//                DLog(@"网络环境：未知网络");
+//                // 无网络
+//            case PPNetworkStatusNotReachable:
+//                DLog(@"网络环境：无网络");
+//                KPostNotification(KNotificationNetWorkStateChange, @NO);
+//                break;
+//                // 手机网络
+//            case PPNetworkStatusReachableViaWWAN:
+//                DLog(@"网络环境：手机自带网络");
+//                // 无线网络
+//            case PPNetworkStatusReachableViaWiFi:
+//                DLog(@"网络环境：WiFi");
+//                KPostNotification(KNotificationNetWorkStateChange, @YES);
+//                break;
+//        }
+//
+//    }];
+    
 }
+
+
+
+
+
 
 //设置tabbar样式
 -(void)setTabbarBadgeTypeWithTabbar:(CYLTabBarController *)tabBarController{
+    
     [tabBarController setViewDidLayoutSubViewsBlock:^(CYLTabBarController *aTabBarController) {
         UIViewController *viewController = aTabBarController.viewControllers[0];
         UIView *tabBadgePointView0 = [UIView cyl_tabBadgePointViewWithClolor:RANDOM_COLOR radius:4.5];
@@ -118,7 +130,6 @@
 
 
 #pragma mark - delegate
-
 - (BOOL)tabBarController:(UITabBarController *)tabBarController shouldSelectViewController:(UIViewController *)viewController {
     [[self cyl_tabBarController] updateSelectionStatusIfNeededForTabBarController:tabBarController shouldSelectViewController:viewController];
     return YES;
@@ -139,12 +150,11 @@
     }
     
     // 即使 PlusButton 也添加了点击事件，点击 PlusButton 后也会触发该代理方法。
+    //中间按钮是否需要动画
     if ([control cyl_isPlusButton]) {
         UIButton *button = CYLExternPlusButton;
         animationView = button.imageView;
     }
-    
-    
     
     if ([self cyl_tabBarController].selectedIndex % 2 == 0) {
         [self addScaleAnimationOnView:animationView repeatCount:1];
@@ -158,8 +168,8 @@
     //需要实现的帧动画，这里根据需求自定义
     CAKeyframeAnimation *animation = [CAKeyframeAnimation animation];
     animation.keyPath = @"transform.scale";
-    animation.values = @[@1.0,@1.3,@0.9,@1.15,@0.95,@1.02,@1.0];
-    animation.duration = 1;
+    animation.values = @[@1.0,@1.2,@0.9,@1.15,@0.95,@1.02,@1.0];
+    animation.duration = 0.8;
     animation.repeatCount = repeatCount;
     animation.calculationMode = kCAAnimationCubic;
     [animationView.layer addAnimation:animation forKey:nil];
@@ -182,79 +192,16 @@
     });
 }
 
+#pragma mark 适配iOS11
+-(void)adaptationNewIOS{
 
-- (void)applicationWillResignActive:(UIApplication *)application {
-    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-    // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
-}
-
-
-- (void)applicationDidEnterBackground:(UIApplication *)application {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
-    // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
-}
-
-
-- (void)applicationWillEnterForeground:(UIApplication *)application {
-    // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
-}
-
-
-- (void)applicationDidBecomeActive:(UIApplication *)application {
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-}
-
-
-- (void)applicationWillTerminate:(UIApplication *)application {
-    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-    // Saves changes in the application's managed object context before the application terminates.
-    [self saveContext];
-}
-
-
-#pragma mark - Core Data stack
-
-@synthesize persistentContainer = _persistentContainer;
-
-- (NSPersistentContainer *)persistentContainer {
-    // The persistent container for the application. This implementation creates and returns a container, having loaded the store for the application to it.
-    @synchronized (self) {
-        if (_persistentContainer == nil) {
-            _persistentContainer = [[NSPersistentContainer alloc] initWithName:@"ProjectFrame"];
-            [_persistentContainer loadPersistentStoresWithCompletionHandler:^(NSPersistentStoreDescription *storeDescription, NSError *error) {
-                if (error != nil) {
-                    // Replace this implementation with code to handle the error appropriately.
-                    // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-                    
-                    /*
-                     Typical reasons for an error here include:
-                     * The parent directory does not exist, cannot be created, or disallows writing.
-                     * The persistent store is not accessible, due to permissions or data protection when the device is locked.
-                     * The device is out of space.
-                     * The store could not be migrated to the current model version.
-                     Check the error message to determine what the actual problem was.
-                    */
-                    NSLog(@"Unresolved error %@, %@", error, error.userInfo);
-                    abort();
-                }
-            }];
-        }
-    }
-    
-    return _persistentContainer;
-}
-
-#pragma mark - Core Data Saving support
-
-- (void)saveContext {
-    NSManagedObjectContext *context = self.persistentContainer.viewContext;
-    NSError *error = nil;
-    if ([context hasChanges] && ![context save:&error]) {
-        // Replace this implementation with code to handle the error appropriately.
-        // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-        NSLog(@"Unresolved error %@, %@", error, error.userInfo);
-        abort();
+    if (@available(ios 11.0,*)) {
+        UIScrollView.appearance.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+        UITableView.appearance.estimatedRowHeight = 0;
+        UITableView.appearance.estimatedSectionFooterHeight = 0;
+        UITableView.appearance.estimatedSectionHeaderHeight = 0;
     }
 }
+
 
 @end
