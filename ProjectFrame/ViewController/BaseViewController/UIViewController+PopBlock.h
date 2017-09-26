@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void(^PopBlock)(UIBarButtonItem *backItem);
+
 @interface UIViewController (PopBlock)
+
+@property(nonatomic,copy)PopBlock popBlock;
 
 @end

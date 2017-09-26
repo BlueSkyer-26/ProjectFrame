@@ -7,7 +7,10 @@
 //
 
 #import "BaseViewController.h"
+#import <WebKit/WebKit.h>
 
 @interface BaseWebViewController : BaseViewController
+
+@property(nonatomic,strong)NSString *urlString;
 
 @end

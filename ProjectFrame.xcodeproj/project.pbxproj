@@ -20,6 +20,48 @@
 		821CE04A1F79EA2F00CC0AED /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 821CE0491F79EA2F00CC0AED /* BaseViewController.m */; };
 		821CE04D1F79EA6000CC0AED /* BaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 821CE04C1F79EA6000CC0AED /* BaseWebViewController.m */; };
 		821CE0501F79EB1300CC0AED /* UIViewController+PopBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 821CE04F1F79EB1300CC0AED /* UIViewController+PopBlock.m */; };
+		82C8E3F01F79FDF200514591 /* UIView+JDLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E3EF1F79FDF200514591 /* UIView+JDLExtension.m */; };
+		82C8E3F31F79FED600514591 /* UIBarButtonItem+JDLAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E3F21F79FED600514591 /* UIBarButtonItem+JDLAddition.m */; };
+		82C8E3F51F7A014F00514591 /* MBProgressHUD+Show.m in Sources */ = {isa = PBXBuildFile; fileRef = 821CDFFC1F79E6BB00CC0AED /* MBProgressHUD+Show.m */; };
+		82C8E3F61F7A015200514591 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 821CDFFF1F79E6BB00CC0AED /* MBProgressHUD.m */; };
+		82C8E3FB1F7A018D00514591 /* UINavigationBar+alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 821CE0341F79E6BB00CC0AED /* UINavigationBar+alpha.m */; };
+		82C8E3FC1F7A01BA00514591 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 821CDFFD1F79E6BB00CC0AED /* MBProgressHUD.bundle */; };
+		82C8E3FD1F7A01CB00514591 /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 821CE0251F79E6BB00CC0AED /* TAAbstractDotView.m */; };
+		82C8E3FE1F7A01CF00514591 /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 821CE0271F79E6BB00CC0AED /* TAAnimatedDotView.m */; };
+		82C8E3FF1F7A01D200514591 /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 821CE0291F79E6BB00CC0AED /* TADotView.m */; };
+		82C8E4001F7A01D500514591 /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 821CE02B1F79E6BB00CC0AED /* TAPageControl.m */; };
+		82C8E4011F7A01DA00514591 /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 821CE02D1F79E6BB00CC0AED /* SDCollectionViewCell.m */; };
+		82C8E4021F7A01DD00514591 /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 821CE02F1F79E6BB00CC0AED /* SDCycleScrollView.m */; };
+		82C8E4031F7A01E000514591 /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 821CE0311F79E6BB00CC0AED /* UIView+SDExtension.m */; };
+		82C8E4041F7A020600514591 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 821CE0021F79E6BB00CC0AED /* MKAnnotationView+WebCache.m */; };
+		82C8E4051F7A020900514591 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 821CE0041F79E6BB00CC0AED /* NSData+ImageContentType.m */; };
+		82C8E4061F7A020C00514591 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 821CE0061F79E6BB00CC0AED /* SDImageCache.m */; };
+		82C8E4071F7A020F00514591 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 821CE0081F79E6BB00CC0AED /* SDWebImageCompat.m */; };
+		82C8E4081F7A021200514591 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 821CE00A1F79E6BB00CC0AED /* SDWebImageDecoder.m */; };
+		82C8E4091F7A021400514591 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 821CE00C1F79E6BB00CC0AED /* SDWebImageDownloader.m */; };
+		82C8E40A1F7A021800514591 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 821CE00E1F79E6BB00CC0AED /* SDWebImageDownloaderOperation.m */; };
+		82C8E40B1F7A021C00514591 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 821CE0101F79E6BB00CC0AED /* SDWebImageManager.m */; };
+		82C8E40C1F7A022100514591 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 821CE0131F79E6BB00CC0AED /* SDWebImagePrefetcher.m */; };
+		82C8E40D1F7A022400514591 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 821CE0151F79E6BB00CC0AED /* UIButton+WebCache.m */; };
+		82C8E40E1F7A022700514591 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 821CE0171F79E6BB00CC0AED /* UIImage+GIF.m */; };
+		82C8E40F1F7A022900514591 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 821CE0191F79E6BB00CC0AED /* UIImage+MultiFormat.m */; };
+		82C8E4101F7A022B00514591 /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = 821CE01B1F79E6BB00CC0AED /* UIImage+WebP.m */; };
+		82C8E4111F7A022D00514591 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 821CE01D1F79E6BB00CC0AED /* UIImageView+HighlightedWebCache.m */; };
+		82C8E4121F7A022F00514591 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 821CE01F1F79E6BB00CC0AED /* UIImageView+WebCache.m */; };
+		82C8E4131F7A023200514591 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 821CE0211F79E6BB00CC0AED /* UIView+WebCacheOperation.m */; };
+		82C8E41A1F7A03A500514591 /* Test4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E4191F7A03A500514591 /* Test4ViewController.m */; };
+		82C8E41D1F7A03B700514591 /* Test3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E41C1F7A03B700514591 /* Test3ViewController.m */; };
+		82C8E4201F7A03C100514591 /* Test2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E41F1F7A03C100514591 /* Test2ViewController.m */; };
+		82C8E4231F7A03CA00514591 /* Test1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E4221F7A03CA00514591 /* Test1ViewController.m */; };
+		82C8E4261F7A043600514591 /* JDLTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E4251F7A043600514591 /* JDLTabbarController.m */; };
+		82C8E4361F7A109B00514591 /* CYLPlusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E42B1F7A108100514591 /* CYLPlusButton.m */; };
+		82C8E4371F7A10A100514591 /* CYLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E4291F7A108100514591 /* CYLTabBar.m */; };
+		82C8E4381F7A10A400514591 /* CYLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E4341F7A108200514591 /* CYLTabBarController.m */; };
+		82C8E4391F7A10A600514591 /* UIControl+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E4321F7A108200514591 /* UIControl+CYLTabBarControllerExtention.m */; };
+		82C8E43A1F7A10A900514591 /* UITabBarItem+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E4311F7A108200514591 /* UITabBarItem+CYLTabBarControllerExtention.m */; };
+		82C8E43B1F7A10AC00514591 /* UIView+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E42A1F7A108100514591 /* UIView+CYLTabBarControllerExtention.m */; };
+		82C8E43C1F7A10B000514591 /* UIViewController+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E4351F7A108200514591 /* UIViewController+CYLTabBarControllerExtention.m */; };
+		82C8E43F1F7A186300514591 /* JDLTabbarPlusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E43E1F7A186300514591 /* JDLTabbarPlusButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,15 +153,6 @@
 		821CE0331F79E6BB00CC0AED /* UINavigationBar+alpha.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+alpha.h"; sourceTree = "<group>"; };
 		821CE0341F79E6BB00CC0AED /* UINavigationBar+alpha.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+alpha.m"; sourceTree = "<group>"; };
 		821CE0361F79E72C00CC0AED /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
-		821CE0381F79E81600CC0AED /* CYLConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYLConstants.h; sourceTree = "<group>"; };
-		821CE0391F79E81600CC0AED /* CYLPlusButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYLPlusButton.h; sourceTree = "<group>"; };
-		821CE03A1F79E81600CC0AED /* CYLPlusButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYLPlusButton.m; sourceTree = "<group>"; };
-		821CE03B1F79E81600CC0AED /* CYLTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYLTabBar.h; sourceTree = "<group>"; };
-		821CE03C1F79E81600CC0AED /* CYLTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYLTabBar.m; sourceTree = "<group>"; };
-		821CE03D1F79E81600CC0AED /* CYLTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYLTabBarController.h; sourceTree = "<group>"; };
-		821CE03E1F79E81600CC0AED /* CYLTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYLTabBarController.m; sourceTree = "<group>"; };
-		821CE03F1F79E81600CC0AED /* UIViewController+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
-		821CE0401F79E81600CC0AED /* UIViewController+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
 		821CE0411F79E87400CC0AED /* MSUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSUtil.h; sourceTree = "<group>"; };
 		821CE0421F79E87400CC0AED /* MSUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSUtil.m; sourceTree = "<group>"; };
 		821CE0451F79EA1600CC0AED /* BaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
@@ -130,6 +163,37 @@
 		821CE04C1F79EA6000CC0AED /* BaseWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseWebViewController.m; sourceTree = "<group>"; };
 		821CE04E1F79EB1300CC0AED /* UIViewController+PopBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PopBlock.h"; sourceTree = "<group>"; };
 		821CE04F1F79EB1300CC0AED /* UIViewController+PopBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PopBlock.m"; sourceTree = "<group>"; };
+		82C8E3EE1F79FDF200514591 /* UIView+JDLExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+JDLExtension.h"; sourceTree = "<group>"; };
+		82C8E3EF1F79FDF200514591 /* UIView+JDLExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+JDLExtension.m"; sourceTree = "<group>"; };
+		82C8E3F11F79FED600514591 /* UIBarButtonItem+JDLAddition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+JDLAddition.h"; sourceTree = "<group>"; };
+		82C8E3F21F79FED600514591 /* UIBarButtonItem+JDLAddition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+JDLAddition.m"; sourceTree = "<group>"; };
+		82C8E4181F7A03A500514591 /* Test4ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test4ViewController.h; sourceTree = "<group>"; };
+		82C8E4191F7A03A500514591 /* Test4ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test4ViewController.m; sourceTree = "<group>"; };
+		82C8E41B1F7A03B700514591 /* Test3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test3ViewController.h; sourceTree = "<group>"; };
+		82C8E41C1F7A03B700514591 /* Test3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test3ViewController.m; sourceTree = "<group>"; };
+		82C8E41E1F7A03C100514591 /* Test2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test2ViewController.h; sourceTree = "<group>"; };
+		82C8E41F1F7A03C100514591 /* Test2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test2ViewController.m; sourceTree = "<group>"; };
+		82C8E4211F7A03CA00514591 /* Test1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test1ViewController.h; sourceTree = "<group>"; };
+		82C8E4221F7A03CA00514591 /* Test1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test1ViewController.m; sourceTree = "<group>"; };
+		82C8E4241F7A043600514591 /* JDLTabbarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDLTabbarController.h; sourceTree = "<group>"; };
+		82C8E4251F7A043600514591 /* JDLTabbarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDLTabbarController.m; sourceTree = "<group>"; };
+		82C8E4271F7A108100514591 /* UIView+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		82C8E4281F7A108100514591 /* CYLTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYLTabBarController.h; sourceTree = "<group>"; };
+		82C8E4291F7A108100514591 /* CYLTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYLTabBar.m; sourceTree = "<group>"; };
+		82C8E42A1F7A108100514591 /* UIView+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		82C8E42B1F7A108100514591 /* CYLPlusButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYLPlusButton.m; sourceTree = "<group>"; };
+		82C8E42C1F7A108100514591 /* CYLConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYLConstants.h; sourceTree = "<group>"; };
+		82C8E42D1F7A108100514591 /* UIViewController+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		82C8E42E1F7A108100514591 /* UITabBarItem+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		82C8E42F1F7A108100514591 /* CYLTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYLTabBar.h; sourceTree = "<group>"; };
+		82C8E4301F7A108200514591 /* UIControl+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIControl+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		82C8E4311F7A108200514591 /* UITabBarItem+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		82C8E4321F7A108200514591 /* UIControl+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIControl+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		82C8E4331F7A108200514591 /* CYLPlusButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYLPlusButton.h; sourceTree = "<group>"; };
+		82C8E4341F7A108200514591 /* CYLTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYLTabBarController.m; sourceTree = "<group>"; };
+		82C8E4351F7A108200514591 /* UIViewController+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		82C8E43D1F7A186300514591 /* JDLTabbarPlusButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDLTabbarPlusButton.h; sourceTree = "<group>"; };
+		82C8E43E1F7A186300514591 /* JDLTabbarPlusButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDLTabbarPlusButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,6 +294,7 @@
 		821CDFF61F79E5CC00CC0AED /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				82C8E3ED1F79FDA900514591 /* Category */,
 				821CE0411F79E87400CC0AED /* MSUtil.h */,
 				821CE0421F79E87400CC0AED /* MSUtil.m */,
 			);
@@ -239,6 +304,10 @@
 		821CDFF71F79E5D500CC0AED /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				82C8E4171F7A038400514591 /* Test4 */,
+				82C8E4161F7A037C00514591 /* Test3 */,
+				82C8E4151F7A034E00514591 /* Test2 */,
+				82C8E4141F7A033F00514591 /* Test1 */,
 				821CE0441F79E9E900CC0AED /* BaseViewController */,
 			);
 			path = ViewController;
@@ -353,15 +422,21 @@
 		821CE0371F79E81600CC0AED /* CYLTabBarController */ = {
 			isa = PBXGroup;
 			children = (
-				821CE0381F79E81600CC0AED /* CYLConstants.h */,
-				821CE0391F79E81600CC0AED /* CYLPlusButton.h */,
-				821CE03A1F79E81600CC0AED /* CYLPlusButton.m */,
-				821CE03B1F79E81600CC0AED /* CYLTabBar.h */,
-				821CE03C1F79E81600CC0AED /* CYLTabBar.m */,
-				821CE03D1F79E81600CC0AED /* CYLTabBarController.h */,
-				821CE03E1F79E81600CC0AED /* CYLTabBarController.m */,
-				821CE03F1F79E81600CC0AED /* UIViewController+CYLTabBarControllerExtention.h */,
-				821CE0401F79E81600CC0AED /* UIViewController+CYLTabBarControllerExtention.m */,
+				82C8E42C1F7A108100514591 /* CYLConstants.h */,
+				82C8E4331F7A108200514591 /* CYLPlusButton.h */,
+				82C8E42B1F7A108100514591 /* CYLPlusButton.m */,
+				82C8E42F1F7A108100514591 /* CYLTabBar.h */,
+				82C8E4291F7A108100514591 /* CYLTabBar.m */,
+				82C8E4281F7A108100514591 /* CYLTabBarController.h */,
+				82C8E4341F7A108200514591 /* CYLTabBarController.m */,
+				82C8E4301F7A108200514591 /* UIControl+CYLTabBarControllerExtention.h */,
+				82C8E4321F7A108200514591 /* UIControl+CYLTabBarControllerExtention.m */,
+				82C8E42E1F7A108100514591 /* UITabBarItem+CYLTabBarControllerExtention.h */,
+				82C8E4311F7A108200514591 /* UITabBarItem+CYLTabBarControllerExtention.m */,
+				82C8E4271F7A108100514591 /* UIView+CYLTabBarControllerExtention.h */,
+				82C8E42A1F7A108100514591 /* UIView+CYLTabBarControllerExtention.m */,
+				82C8E42D1F7A108100514591 /* UIViewController+CYLTabBarControllerExtention.h */,
+				82C8E4351F7A108200514591 /* UIViewController+CYLTabBarControllerExtention.m */,
 			);
 			path = CYLTabBarController;
 			sourceTree = "<group>";
@@ -377,8 +452,59 @@
 				821CE04C1F79EA6000CC0AED /* BaseWebViewController.m */,
 				821CE04E1F79EB1300CC0AED /* UIViewController+PopBlock.h */,
 				821CE04F1F79EB1300CC0AED /* UIViewController+PopBlock.m */,
+				82C8E4241F7A043600514591 /* JDLTabbarController.h */,
+				82C8E4251F7A043600514591 /* JDLTabbarController.m */,
+				82C8E43D1F7A186300514591 /* JDLTabbarPlusButton.h */,
+				82C8E43E1F7A186300514591 /* JDLTabbarPlusButton.m */,
 			);
 			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		82C8E3ED1F79FDA900514591 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				82C8E3EE1F79FDF200514591 /* UIView+JDLExtension.h */,
+				82C8E3EF1F79FDF200514591 /* UIView+JDLExtension.m */,
+				82C8E3F11F79FED600514591 /* UIBarButtonItem+JDLAddition.h */,
+				82C8E3F21F79FED600514591 /* UIBarButtonItem+JDLAddition.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		82C8E4141F7A033F00514591 /* Test1 */ = {
+			isa = PBXGroup;
+			children = (
+				82C8E4211F7A03CA00514591 /* Test1ViewController.h */,
+				82C8E4221F7A03CA00514591 /* Test1ViewController.m */,
+			);
+			path = Test1;
+			sourceTree = "<group>";
+		};
+		82C8E4151F7A034E00514591 /* Test2 */ = {
+			isa = PBXGroup;
+			children = (
+				82C8E41E1F7A03C100514591 /* Test2ViewController.h */,
+				82C8E41F1F7A03C100514591 /* Test2ViewController.m */,
+			);
+			path = Test2;
+			sourceTree = "<group>";
+		};
+		82C8E4161F7A037C00514591 /* Test3 */ = {
+			isa = PBXGroup;
+			children = (
+				82C8E41B1F7A03B700514591 /* Test3ViewController.h */,
+				82C8E41C1F7A03B700514591 /* Test3ViewController.m */,
+			);
+			path = Test3;
+			sourceTree = "<group>";
+		};
+		82C8E4171F7A038400514591 /* Test4 */ = {
+			isa = PBXGroup;
+			children = (
+				82C8E4181F7A03A500514591 /* Test4ViewController.h */,
+				82C8E4191F7A03A500514591 /* Test4ViewController.m */,
+			);
+			path = Test4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -488,6 +614,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				821CDFD01F79E37200CC0AED /* LaunchScreen.storyboard in Resources */,
+				82C8E3FC1F7A01BA00514591 /* MBProgressHUD.bundle in Resources */,
 				821CDFCD1F79E37200CC0AED /* Assets.xcassets in Resources */,
 				821CDFC81F79E37200CC0AED /* Main.storyboard in Resources */,
 			);
@@ -514,14 +641,55 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82C8E4371F7A10A100514591 /* CYLTabBar.m in Sources */,
+				82C8E40D1F7A022400514591 /* UIButton+WebCache.m in Sources */,
+				82C8E41D1F7A03B700514591 /* Test3ViewController.m in Sources */,
+				82C8E40B1F7A021C00514591 /* SDWebImageManager.m in Sources */,
+				82C8E3FE1F7A01CF00514591 /* TAAnimatedDotView.m in Sources */,
+				82C8E3F51F7A014F00514591 /* MBProgressHUD+Show.m in Sources */,
 				821CE0501F79EB1300CC0AED /* UIViewController+PopBlock.m in Sources */,
+				82C8E4091F7A021400514591 /* SDWebImageDownloader.m in Sources */,
+				82C8E3F31F79FED600514591 /* UIBarButtonItem+JDLAddition.m in Sources */,
+				82C8E4071F7A020F00514591 /* SDWebImageCompat.m in Sources */,
 				821CDFC21F79E37200CC0AED /* AppDelegate.m in Sources */,
 				821CE04D1F79EA6000CC0AED /* BaseWebViewController.m in Sources */,
+				82C8E4031F7A01E000514591 /* UIView+SDExtension.m in Sources */,
+				82C8E4131F7A023200514591 /* UIView+WebCacheOperation.m in Sources */,
 				821CE04A1F79EA2F00CC0AED /* BaseViewController.m in Sources */,
+				82C8E4121F7A022F00514591 /* UIImageView+WebCache.m in Sources */,
+				82C8E4101F7A022B00514591 /* UIImage+WebP.m in Sources */,
+				82C8E4061F7A020C00514591 /* SDImageCache.m in Sources */,
+				82C8E3FF1F7A01D200514591 /* TADotView.m in Sources */,
+				82C8E40F1F7A022900514591 /* UIImage+MultiFormat.m in Sources */,
+				82C8E40A1F7A021800514591 /* SDWebImageDownloaderOperation.m in Sources */,
+				82C8E4111F7A022D00514591 /* UIImageView+HighlightedWebCache.m in Sources */,
+				82C8E4011F7A01DA00514591 /* SDCollectionViewCell.m in Sources */,
 				821CE0431F79E87400CC0AED /* MSUtil.m in Sources */,
+				82C8E3FB1F7A018D00514591 /* UINavigationBar+alpha.m in Sources */,
+				82C8E3F61F7A015200514591 /* MBProgressHUD.m in Sources */,
+				82C8E4051F7A020900514591 /* NSData+ImageContentType.m in Sources */,
+				82C8E4001F7A01D500514591 /* TAPageControl.m in Sources */,
+				82C8E41A1F7A03A500514591 /* Test4ViewController.m in Sources */,
 				821CDFD31F79E37200CC0AED /* main.m in Sources */,
+				82C8E3FD1F7A01CB00514591 /* TAAbstractDotView.m in Sources */,
+				82C8E4391F7A10A600514591 /* UIControl+CYLTabBarControllerExtention.m in Sources */,
+				82C8E43F1F7A186300514591 /* JDLTabbarPlusButton.m in Sources */,
+				82C8E43A1F7A10A900514591 /* UITabBarItem+CYLTabBarControllerExtention.m in Sources */,
+				82C8E4081F7A021200514591 /* SDWebImageDecoder.m in Sources */,
+				82C8E4021F7A01DD00514591 /* SDCycleScrollView.m in Sources */,
+				82C8E43B1F7A10AC00514591 /* UIView+CYLTabBarControllerExtention.m in Sources */,
+				82C8E4231F7A03CA00514591 /* Test1ViewController.m in Sources */,
 				821CDFCB1F79E37200CC0AED /* ProjectFrame.xcdatamodeld in Sources */,
 				821CE0471F79EA1600CC0AED /* BaseNavigationController.m in Sources */,
+				82C8E4261F7A043600514591 /* JDLTabbarController.m in Sources */,
+				82C8E43C1F7A10B000514591 /* UIViewController+CYLTabBarControllerExtention.m in Sources */,
+				82C8E40C1F7A022100514591 /* SDWebImagePrefetcher.m in Sources */,
+				82C8E4201F7A03C100514591 /* Test2ViewController.m in Sources */,
+				82C8E4041F7A020600514591 /* MKAnnotationView+WebCache.m in Sources */,
+				82C8E4381F7A10A400514591 /* CYLTabBarController.m in Sources */,
+				82C8E40E1F7A022700514591 /* UIImage+GIF.m in Sources */,
+				82C8E4361F7A109B00514591 /* CYLPlusButton.m in Sources */,
+				82C8E3F01F79FDF200514591 /* UIView+JDLExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

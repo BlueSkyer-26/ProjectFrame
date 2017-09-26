@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIViewController+PopBlock.h"
 
 @interface BaseNavigationController : UINavigationController
 
