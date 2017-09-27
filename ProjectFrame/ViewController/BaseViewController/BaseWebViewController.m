@@ -128,18 +128,4 @@
     WMLog(@"%s dealloc",object_getClassName(self));
 }
 
-- (BOOL)shouldAutorotate//是否支持旋转屏幕
-{
-    return YES;
-}
-- (NSUInteger)supportedInterfaceOrientations//支持哪些方向
-{
-    return UIInterfaceOrientationMaskLandscape;
-}
-- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation//默认显示的方向
-{
-    return UIInterfaceOrientationLandscapeLeft;
-}
-
-
 @end

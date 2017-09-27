@@ -29,6 +29,15 @@
     //网络监听
     [self monitorNetworkStatus];
     
+    //广告页  不用则注释掉
+    [AppManager appStart];
+    
+    //显示FPS 用户调试
+    [AppManager showFPS];
+    
+    //第一次启动 引导页
+//    [self ];
+    
     return  YES;
 }
 

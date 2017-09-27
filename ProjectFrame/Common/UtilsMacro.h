@@ -15,25 +15,6 @@
 #define IS_IPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
 #define IS_IPHONE_X (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 812.0f)
 
-
-///适配相关
-#define kTopScrollerViewHight 44
-#define kScreenWidth  [UIScreen mainScreen].bounds.size.width
-#define kScreenHeight [UIScreen mainScreen].bounds.size.height
-
-#define kDeviceVersion [[UIDevice currentDevice].systemVersion floatValue]
-#define kNavbarHeight ((kDeviceVersion>=7.0)? 64 :44 )
-#define kIOS7DELTA   ((kDeviceVersion>=7.0)? 20 :0 )
-#define kTabBarHeight 49
-// navigation fontSize
-#define kPolicyDetailHeaderViewHeight 77.f
-#define kReimbursedByThirdPartyButtonTag 500
-#define kIphone5TextFont 13.f
-
-
-#define TheUserDefaults [NSUserDefaults standardUserDefaults]
-
-
 #define IS_IPAD (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
 #define IS_IPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
 
@@ -46,10 +27,54 @@
 #define IS_IPHONE6P (IS_IPHONE && kSCREEN_MAX_LENGTH == 736.0)
 
 
+///适配相关
+//获取屏幕宽高
+#define KScreenWidth ([[UIScreen mainScreen] bounds].size.width)
+#define KScreenHeight [[UIScreen mainScreen] bounds].size.height
+#define kScreen_Bounds [UIScreen mainScreen].bounds
+
+
+#define kDeviceVersion [[UIDevice currentDevice].systemVersion floatValue]
+#define kNavbarHeight ((kDeviceVersion>=7.0)? 64 :44 )
+#define kIOS7DELTA   ((kDeviceVersion>=7.0)? 20 :0 )
+#define kTabBarHeight 49
+// navigation fontSize
+#define kPolicyDetailHeaderViewHeight 77.f
+#define kReimbursedByThirdPartyButtonTag 500
+#define kIphone5TextFont 13.f
+
+
+//获取系统对象
+#define kApplication        [UIApplication sharedApplication]
+#define kAppWindow          [UIApplication sharedApplication].delegate.window
+#define kAppDelegate        [AppDelegate shareAppDelegate]
+#define kRootViewController [UIApplication sharedApplication].delegate.window.rootViewController
+#define kUserDefaults       [NSUserDefaults standardUserDefaults]
+#define kNotificationCenter [NSNotificationCenter defaultCenter]
+//发送通知
+#define KPostNotification(name,obj) [[NSNotificationCenter defaultCenter] postNotificationName:name object:obj];
+/** 设置图片 */
+#define kGetImage(imageName) [UIImage imageNamed:[NSString stringWithFormat:@"%@",imageName]]
+
+//拼接字符串
+#define kNSStringFormat(format,...) [NSString stringWithFormat:format,##__VA_ARGS__]
+
+//数据验证
+#define StrValid(f) (f!=nil && [f isKindOfClass:[NSString class]] && ![f isEqualToString:@""])
+#define SafeStr(f) (StrValid(f) ? f:@"")
+#define HasString(str,key) ([str rangeOfString:key].location!=NSNotFound)
+
+#define ValidStr(f) StrValid(f)
+#define ValidDict(f) (f!=nil && [f isKindOfClass:[NSDictionary class]])
+#define ValidArray(f) (f!=nil && [f isKindOfClass:[NSArray class]] && [f count]>0)
+#define ValidNum(f) (f!=nil && [f isKindOfClass:[NSNumber class]])
+#define ValidClass(f,cls) (f!=nil && [f isKindOfClass:[cls class]])
+#define ValidData(f) (f!=nil && [f isKindOfClass:[NSData class]])
+
+//网络状态变化
+#define KNotificationNetWorkStateChange @"KNotificationNetWorkStateChange"
 
 #define kSafeString(__X__)        [__X__ isKindOfClass:[NSNull class]] ? @"" : [NSString stringWithFormat:@"%@", (__X__)]
-
-
 
 
 
@@ -60,8 +85,7 @@
 
 /** 避免self的提前释放 */
 #define STRONGSELF __weak typeof(weakSelf) strongSelf = weakSelf
-/** 设置图片 */
-#define kGetImage(imageName) [UIImage imageNamed:[NSString stringWithFormat:@"%@",imageName]]
+
 /** 修改Log,debug：WMLog，执行NSLog，release，自动忽略 */
 #ifdef DEBUG
 #define WMLog(...) NSLog(__VA_ARGS__)

@@ -50,6 +50,8 @@
 #import "AppDelegate.h"
 #import "AppDelegate+AppService.h"
 #import "AppDelegate+PushService.h"
+#import "AppManager.h"
+#import "PPNetworkHelper.h"
 #import "BaseNavigationController.h"
 #import "BaseViewController.h"
 #import "BaseWebViewController.h"
@@ -57,7 +59,6 @@
 //Category
 #import "UIBarButtonItem+JDLAddition.h"
 #import "UINavigationBar+alpha.h"
-#import "UIView+JDLExtension.h"
 
 //第三方
 #import "MBProgressHUD.h"

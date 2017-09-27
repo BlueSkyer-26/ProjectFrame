@@ -147,8 +147,8 @@ static CGFloat const CYLTabBarControllerHeight = 40.f;
     [tabBarAppearance setBackgroundColor:KClearColor];
     
     // remove the bar system shadow image
-    // 去除 TabBar 自带的顶部阴影
-    // [[UITabBar appearance] setShadowImage:[[UIImage alloc] init]];
+    // 去除 TabBar 自带的顶部阴影  去掉顶部黑线
+     [[UITabBar appearance] setShadowImage:[[UIImage alloc] init]];
 }
 
 - (void)updateTabBarCustomizationWhenTabBarItemWidthDidUpdate {

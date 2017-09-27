@@ -37,7 +37,7 @@
     if (rightItem) {//右边按钮
         BackView *backView = rightItem.customView;
         if ([backView isKindOfClass:self.class]) {
-            backView.btn.x = backView.width -backView.btn.width;
+            backView.btn.left = backView.width -backView.btn.width;
         }
     }
     if (leftItem) {//左边按钮

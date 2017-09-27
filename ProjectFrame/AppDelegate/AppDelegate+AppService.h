@@ -23,6 +23,9 @@
 //初始化tabbar
 -(void)initTabbarController;
 
+//引导页
+-(void)loadGuideVC;
+
 //适配iOS11
 -(void)adaptationNewIOS;
 

@@ -24,46 +24,54 @@
     
     JDLTabbarController *tabBarControllerConfig = [[JDLTabbarController alloc] init];
     CYLTabBarController *tabBarController = tabBarControllerConfig.tabBarController;
-    [self.window setRootViewController:tabBarController];
     //设置tabbar样式
     [self setTabbarBadgeTypeWithTabbar:tabBarController];
     //设置导航样式
-    [self customizeInterface];
+    //    [self setUpNavigationBarAppearance];
+    [self.window setRootViewController:tabBarController];
 }
 
 #pragma mark ————— 网络状态监听 —————
 - (void)monitorNetworkStatus
 {
     // 网络状态改变一次, networkStatusWithBlock就会响应一次
-//    [PPNetworkHelper networkStatusWithBlock:^(PPNetworkStatusType networkStatus) {
-//
-//        switch (networkStatus) {
-//                // 未知网络
-//            case PPNetworkStatusUnknown:
-//                DLog(@"网络环境：未知网络");
-//                // 无网络
-//            case PPNetworkStatusNotReachable:
-//                DLog(@"网络环境：无网络");
-//                KPostNotification(KNotificationNetWorkStateChange, @NO);
-//                break;
-//                // 手机网络
-//            case PPNetworkStatusReachableViaWWAN:
-//                DLog(@"网络环境：手机自带网络");
-//                // 无线网络
-//            case PPNetworkStatusReachableViaWiFi:
-//                DLog(@"网络环境：WiFi");
-//                KPostNotification(KNotificationNetWorkStateChange, @YES);
-//                break;
-//        }
-//
-//    }];
+    [PPNetworkHelper networkStatusWithBlock:^(PPNetworkStatusType networkStatus) {
+
+        switch (networkStatus) {
+                // 未知网络
+            case PPNetworkStatusUnknown:
+                WMLog(@"网络环境：未知网络");
+                // 无网络
+            case PPNetworkStatusNotReachable:
+                WMLog(@"网络环境：无网络");
+                KPostNotification(KNotificationNetWorkStateChange, @NO);
+                break;
+                // 手机网络
+            case PPNetworkStatusReachableViaWWAN:
+                WMLog(@"网络环境：手机自带网络");
+                // 无线网络
+            case PPNetworkStatusReachableViaWiFi:
+                WMLog(@"网络环境：WiFi");
+                KPostNotification(KNotificationNetWorkStateChange, @YES);
+                break;
+        }
+
+    }];
     
 }
 
-
-
-
-
+#pragma mark ————— 第一次启动引导页 —————
+-(void)loadRootVC {
+//    if (![kUserDefaults boolForKey:@"firstLaunch"]) {
+//        [kUserDefaults setBool:YES forKey:@"firstLaunch"];
+//        [kUserDefaults synchronize];
+//        //如果是第一次启动,使用UserGuideViewController (用户引导页面) 作为根视图
+//        self.window.rootViewController = [[UserGuideViewController alloc]init];
+//    }
+//    else {
+//        self.window.rootViewController = self.rootTabbar = [[RootTabbarController alloc]init];
+//    }
+}
 
 //设置tabbar样式
 -(void)setTabbarBadgeTypeWithTabbar:(CYLTabBarController *)tabBarController{
@@ -85,15 +93,10 @@
         [aTabBarController.viewControllers[3] cyl_showTabBadgePoint];
         
         //添加提示动画，引导用户点击
-        [self addScaleAnimationOnView:aTabBarController.viewControllers[3].cyl_tabButton.cyl_tabImageView repeatCount:20];
+        [self addScaleAnimationOnView:aTabBarController.viewControllers[3].cyl_tabButton.cyl_tabImageView repeatCount:20 isAnimation:NO];
     }];
     
     tabBarController.delegate = self;
-}
-
-
-- (void)customizeInterface {
-    [self setUpNavigationBarAppearance];
 }
 
 /**
@@ -136,15 +139,15 @@
 }
 
 - (void)tabBarController:(UITabBarController *)tabBarController didSelectControl:(UIControl *)control {
-    UIView *animationView;
     
+    UIView *animationView;
     if ([control cyl_isTabButton]) {
-        //更改红标状态
-        if ([[self cyl_tabBarController].selectedViewController cyl_isShowTabBadgePoint]) {
-            [[self cyl_tabBarController].selectedViewController cyl_removeTabBadgePoint];
-        } else {
-            [[self cyl_tabBarController].selectedViewController cyl_showTabBadgePoint];
-        }
+        //更改红标状态  点 或 数字
+//        if ([[self cyl_tabBarController].selectedViewController cyl_isShowTabBadgePoint]) {
+//            [[self cyl_tabBarController].selectedViewController cyl_removeTabBadgePoint];
+//        } else {
+//            [[self cyl_tabBarController].selectedViewController cyl_showTabBadgePoint];
+//        }
         
         animationView = [control cyl_tabImageView];
     }
@@ -156,23 +159,25 @@
         animationView = button.imageView;
     }
     
-    if ([self cyl_tabBarController].selectedIndex % 2 == 0) {
-        [self addScaleAnimationOnView:animationView repeatCount:1];
-    } else {
-        [self addRotateAnimationOnView:animationView];
-    }
+//    if ([self cyl_tabBarController].selectedIndex % 2 == 0) {
+    [self addScaleAnimationOnView:animationView repeatCount:1 isAnimation:YES];
+//    } else {
+//        [self addRotateAnimationOnView:animationView];
+//    }
 }
 
 //缩放动画
-- (void)addScaleAnimationOnView:(UIView *)animationView repeatCount:(float)repeatCount {
-    //需要实现的帧动画，这里根据需求自定义
-    CAKeyframeAnimation *animation = [CAKeyframeAnimation animation];
-    animation.keyPath = @"transform.scale";
-    animation.values = @[@1.0,@1.2,@0.9,@1.15,@0.95,@1.02,@1.0];
-    animation.duration = 0.8;
-    animation.repeatCount = repeatCount;
-    animation.calculationMode = kCAAnimationCubic;
-    [animationView.layer addAnimation:animation forKey:nil];
+- (void)addScaleAnimationOnView:(UIView *)animationView repeatCount:(float)repeatCount isAnimation:(BOOL)isAnimtion{
+    if (isAnimtion) {
+        //需要实现的帧动画，这里根据需求自定义
+        CAKeyframeAnimation *animation = [CAKeyframeAnimation animation];
+        animation.keyPath = @"transform.scale";
+        animation.values = @[@1.0,@1.2,@0.9,@1.15,@0.95,@1.02,@1.0];
+        animation.duration = 0.8;
+        animation.repeatCount = repeatCount;
+        animation.calculationMode = kCAAnimationCubic;
+        [animationView.layer addAnimation:animation forKey:nil];
+    }
 }
 
 //旋转动画

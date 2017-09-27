@@ -37,7 +37,7 @@
     //是否显示返回按钮
     self.isShowLiftBack = YES;
     //默认导航栏样式：黑字
-    self.StatusBarStyle = UIStatusBarStyleDefault;
+    self.StatusBarStyle = UIStatusBarStyleLightContent;
     
 }
 

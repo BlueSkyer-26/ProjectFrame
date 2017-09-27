@@ -27,7 +27,7 @@
         [navBar setBarTintColor:KPurpleColor];
 //        [navBar setTintColor:KYellowColor];
         navBar.translucent = YES;
-        [navBar setTitleTextAttributes:@{NSForegroundColorAttributeName :KWhiteColor, NSFontAttributeName : [UIFont systemFontOfSize:18]}];
+        [navBar setTitleTextAttributes:@{NSForegroundColorAttributeName :KYellowColor, NSFontAttributeName : [UIFont systemFontOfSize:18]}];
     }
     return self;
 }
