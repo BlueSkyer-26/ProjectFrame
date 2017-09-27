@@ -21,6 +21,7 @@
 #define CNavBgColor2  [UIColor colorWithHexString:@"00AE68"]
 #define CNavBgColor  [UIColor colorWithHexString:@"ffffff"]
 #define CNavBgFontColor  [UIColor colorWithHexString:@"000000"]
+#define kThemeColor ([UIColor colorWithRed:252.0/255.0 green:252.0/255.0 blue:252.0/255.0 alpha:1.0])
 
 //默认页面背景色
 #define CViewBgColor [UIColor colorWithHexString:@"f2f2f2"]
@@ -42,6 +43,9 @@
 #define KGray2Color [UIColor lightGrayColor]
 #define KBlueColor [UIColor blueColor]
 #define KRedColor [UIColor redColor]
+#define KGreenColor [UIColor greenColor]
+#define KYellowColor [UIColor yellowColor]
+#define KPurpleColor [UIColor purpleColor]
 
 //随机色
 #define RANDOM_COLOR [UIColor colorWithHue: (arc4random() % 256 / 256.0) saturation:((arc4random()% 128 / 256.0 ) + 0.5) brightness:(( arc4random() % 128 / 256.0 ) + 0.5) alpha:1]

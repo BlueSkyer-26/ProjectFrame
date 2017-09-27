@@ -14,7 +14,7 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        self.backgroundColor = [UIColor clearColor];
+        self.backgroundColor = KClearColor;
     }
     return self;
 }
@@ -72,9 +72,9 @@
     UIButton *btn = [[UIButton alloc] init];
     [btn setTitle:title forState:UIControlStateNormal];
     btn.titleLabel.font = [UIFont systemFontOfSize:16.0];
-    [btn setTitleColor:[UIColor lightGrayColor] forState:UIControlStateDisabled];
-    [btn setTitleColor:kTintColor forState:UIControlStateNormal];
-    [btn setTitleColor:kTintColor forState:UIControlStateHighlighted];
+    [btn setTitleColor:KGray2Color forState:UIControlStateDisabled];
+    [btn setTitleColor:KRedColor forState:UIControlStateNormal];
+    [btn setTitleColor:KRedColor forState:UIControlStateHighlighted];
     [btn addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
     btn.titleEdgeInsets = UIEdgeInsetsMake(0, 0, 0, -15);
     btn.frame = CGRectMake(0, 0, title.length * 18, 30);

@@ -109,15 +109,15 @@
         
         textAttributes = @{
                            NSFontAttributeName : [UIFont boldSystemFontOfSize:18],
-                           NSForegroundColorAttributeName : [UIColor blackColor],
+                           NSForegroundColorAttributeName : KBlackColor,
                            };
     } else {
 #if __IPHONE_OS_VERSION_MIN_REQUIRED < __IPHONE_7_0
         backgroundImage = [UIImage imageNamed:@"navigationbar_background"];
         textAttributes = @{
                            UITextAttributeFont : [UIFont boldSystemFontOfSize:18],
-                           UITextAttributeTextColor : [UIColor blackColor],
-                           UITextAttributeTextShadowColor : [UIColor clearColor],
+                           UITextAttributeTextColor : KBlackColor,
+                           UITextAttributeTextShadowColor : KClearColor,
                            UITextAttributeTextShadowOffset : [NSValue valueWithUIOffset:UIOffsetZero],
                            };
 #endif

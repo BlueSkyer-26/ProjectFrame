@@ -32,12 +32,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor =[UIColor whiteColor];
     
+    self.view.backgroundColor =KWhiteColor;
     //是否显示返回按钮
     self.isShowLiftBack = YES;
     //默认导航栏样式：黑字
-    self.StatusBarStyle = UIStatusBarStyleLightContent;
+    self.StatusBarStyle = UIStatusBarStyleDefault;
     
 }
 
@@ -86,6 +86,8 @@
 -(NSString *)backItemImageName{
     return @"navigator_btn_back";
 }
+
+#pragma mark -  屏幕旋转
 //- (BOOL)shouldAutorotate{
 //    //是否允许转屏
 //    BOOL result = [super shouldAutorotate];
@@ -105,6 +107,7 @@
 //    //viewController初始显示的方向
 //    return result;
 //}
+
 #pragma mark ————— 跳转登录界面 —————
 - (void)goLogin
 {
@@ -330,24 +333,8 @@
     [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
-#pragma mark -  屏幕旋转
--(UIInterfaceOrientationMask)supportedInterfaceOrientations
-{
-    //当前支持的旋转类型
-    return UIInterfaceOrientationMaskPortrait;
-}
 
-- (BOOL)shouldAutorotate
-{
-    // 是否支持旋转
-    return NO;
-}
 
--(UIInterfaceOrientation)preferredInterfaceOrientationForPresentation
-{
-    // 默认进去类型
-    return   UIInterfaceOrientationPortrait;
-}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

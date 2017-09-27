@@ -9,12 +9,6 @@
 #ifndef Macro_h
 #define Macro_h
 
-//颜色相关
-//主题色
-#define kThemeColor ([UIColor colorWithRed:252.0/255.0 green:252.0/255.0 blue:252.0/255.0 alpha:1.0])
-//#define kTintColor ([UIColor colorWithRed:67.0/255.0 green:194.0/255.0 blue:71.0/255.0 alpha:1.0])
-#define kTintColor [UIColor redColor]
-
 
 
 //是否是iPhone X

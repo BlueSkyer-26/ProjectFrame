@@ -37,12 +37,11 @@
 - (void)layoutSubviews {
     [super layoutSubviews];
     
-    self.backgroundColor = [UIColor clearColor];
 //    NSLog(@"啦啦啦啦啦啦====%f--%f--%f--%f",self.x,self.y,self.width,self.height);
     // 控件大小,间距大小
     // 注意：一定要根据项目中的图片去调整下面的0.7和0.9，Demo之所以这么设置，因为demo中的 plusButton 的 icon 不是正方形。
-    CGFloat const imageViewEdgeWidth   = self.bounds.size.width * 0.9;
-    CGFloat const imageViewEdgeHeight  = self.bounds.size.width * 0.9;
+    CGFloat const imageViewEdgeWidth   = self.bounds.size.width * 0.8;
+    CGFloat const imageViewEdgeHeight  = self.bounds.size.width * 0.8;
     
     CGFloat const centerOfView    = self.bounds.size.width * 0.5;
     CGFloat const labelLineHeight = self.titleLabel.font.lineHeight;
@@ -82,7 +81,7 @@
     button.titleLabel.font = [UIFont systemFontOfSize:9.5];
 //    [button sizeToFit]; // or set frame in this way `button.frame = CGRectMake(0.0, 0.0, 250, 100);`
     button.frame = CGRectMake(0.0, 0.0, kScreenWidth/5.5, kScreenWidth/5.5);
-    button.backgroundColor = [UIColor orangeColor];
+    button.backgroundColor = KClearColor;
     button.layer.cornerRadius = kScreenWidth/10;
     button.layer.masksToBounds = YES;
     
@@ -137,7 +136,7 @@
 
 + (UIViewController *)plusChildViewController {
     Test4ViewController *plusChildViewController = [[Test4ViewController alloc] init];
-    plusChildViewController.view.backgroundColor = [UIColor yellowColor];
+    plusChildViewController.view.backgroundColor = KYellowColor;
     plusChildViewController.navigationItem.title = @"啦啦啦";
     BaseNavigationController *plusChildNavigationController = [[BaseNavigationController alloc] initWithRootViewController:plusChildViewController];
     return plusChildNavigationController;

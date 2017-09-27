@@ -17,7 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.title = @"哈哈哈";
-    self.view.backgroundColor = RANDOM_COLOR;
+    
+    self.StatusBarStyle = UIStatusBarStyleLightContent;
+//    self.view.backgroundColor = RANDOM_COLOR;
     // Do any additional setup after loading the view.
 }
 

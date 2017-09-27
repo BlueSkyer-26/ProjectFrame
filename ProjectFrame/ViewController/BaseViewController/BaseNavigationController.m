@@ -20,17 +20,19 @@
 {
     if (self = [super initWithRootViewController:rootViewController]) {
         
-        [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault];
-        NSDictionary *attributeDic = [NSDictionary dictionaryWithObjectsAndKeys:[UIFont systemFontOfSize:17.0],NSFontAttributeName,[UIColor whiteColor],NSForegroundColorAttributeName,nil];
-        self.navigationBar.titleTextAttributes = attributeDic;
-        self.navigationBar.translucent = YES;
-        [UINavigationBar appearance].barTintColor = kTintColor;
-        //        [UINavigationBar appearance].tintColor = kTintColor;
+        //导航栏主题 title文字属性
+        UINavigationBar *navBar = [UINavigationBar appearance];
+        //导航栏背景图
+        //    [navBar setBackgroundImage:[UIImage imageNamed:@"tabBarBj"] forBarMetrics:UIBarMetricsDefault];
+        [navBar setBarTintColor:KPurpleColor];
+//        [navBar setTintColor:KYellowColor];
+        navBar.translucent = YES;
+        [navBar setTitleTextAttributes:@{NSForegroundColorAttributeName :KWhiteColor, NSFontAttributeName : [UIFont systemFontOfSize:18]}];
     }
     return self;
 }
 - (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer {
-    //    WMLog(@"------>%@",otherGestureRecognizer.delegate);
+    
     if ([otherGestureRecognizer.delegate isKindOfClass:NSClassFromString(@"UICollectionView")]) {
         UICollectionView *cv = (UICollectionView *)otherGestureRecognizer.delegate;
         UICollectionViewFlowLayout *flowLayout = (UICollectionViewFlowLayout *)cv.collectionViewLayout;
@@ -96,6 +98,10 @@
     [self.interactivePopGestureRecognizer.view addGestureRecognizer:self.panGesture];
     self.panGesture.delegate = self;
     systemGes.enabled = NO;
+}
+
+-(UIViewController *)childViewControllerForStatusBarStyle{
+    return self.topViewController;
 }
 
 -(void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated{

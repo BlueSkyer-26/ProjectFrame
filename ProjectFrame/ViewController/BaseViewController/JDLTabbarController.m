@@ -103,7 +103,7 @@ static CGFloat const CYLTabBarControllerHeight = 40.f;
  *  更多TabBar自定义设置：比如：tabBarItem 的选中和不选中文字和背景图片属性、tabbar 背景图片属性等等
  */
 - (void)customizeTabBarAppearance:(CYLTabBarController *)tabBarController {
-#warning CUSTOMIZE YOUR TABBAR APPEARANCE
+
     // Customize UITabBar height
     // 自定义 TabBar 高度
     //     tabBarController.tabBarHeight = CYLTabBarControllerHeight;
@@ -111,12 +111,12 @@ static CGFloat const CYLTabBarControllerHeight = 40.f;
     // set the text color for unselected state
     // 普通状态下的文字属性
     NSMutableDictionary *normalAttrs = [NSMutableDictionary dictionary];
-    normalAttrs[NSForegroundColorAttributeName] = [UIColor grayColor];
+    normalAttrs[NSForegroundColorAttributeName] = KGrayColor;
     
     // set the text color for selected state
     // 选中状态下的文字属性
     NSMutableDictionary *selectedAttrs = [NSMutableDictionary dictionary];
-    selectedAttrs[NSForegroundColorAttributeName] = [UIColor blackColor];
+    selectedAttrs[NSForegroundColorAttributeName] = KGreenColor;
     
     // set the text Attributes
     // 设置文字属性
@@ -137,13 +137,14 @@ static CGFloat const CYLTabBarControllerHeight = 40.f;
     // set the bar shadow image
     // This shadow image attribute is ignored if the tab bar does not also have a custom background image.So at least set somthing.
     [[UITabBar appearance] setBackgroundImage:[[UIImage alloc] init]];
-    [[UITabBar appearance] setBackgroundColor:[UIColor whiteColor]];
+    [[UITabBar appearance] setBackgroundColor:KWhiteColor];
     [[UITabBar appearance] setShadowImage:[UIImage imageNamed:@"tapbar_top_line"]];
     
     // set the bar background image
     // 设置背景图片
-    //     UITabBar *tabBarAppearance = [UITabBar appearance];
-    //     [tabBarAppearance setBackgroundImage:[UIImage imageNamed:@"tab_bar"]];
+         UITabBar *tabBarAppearance = [UITabBar appearance];
+//         [tabBarAppearance setBackgroundImage:[UIImage imageNamed:@"tab_bar"]];
+    [tabBarAppearance setBackgroundColor:KClearColor];
     
     // remove the bar system shadow image
     // 去除 TabBar 自带的顶部阴影
@@ -173,7 +174,7 @@ static CGFloat const CYLTabBarControllerHeight = 40.f;
     //Get initialized TabBar if exists.
     UITabBar *tabBar = [self cyl_tabBarController].tabBar ?: [UITabBar appearance];
     [tabBar setSelectionIndicatorImage:
-     [[self class] imageWithColor:[UIColor yellowColor]
+     [[self class] imageWithColor:KYellowColor
                              size:selectionIndicatorImageSize]];
 }
 
