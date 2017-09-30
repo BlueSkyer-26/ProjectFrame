@@ -46,6 +46,13 @@
 #define KGreenColor [UIColor greenColor]
 #define KYellowColor [UIColor yellowColor]
 #define KPurpleColor [UIColor purpleColor]
+#define KOrangeColor [UIColor orangeColor]
+
+#define KRGBAllColor(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+#define KWhiteAlphaColor(a) [[UIColor whiteColor] colorWithAlphaComponent:a];
+
+//页面的基础背景色
+#define KVIEW_BASE_COLOR KRGBAllColor(243, 243, 246, 1.0)
 
 //随机色
 #define RANDOM_COLOR [UIColor colorWithHue: (arc4random() % 256 / 256.0) saturation:((arc4random()% 128 / 256.0 ) + 0.5) brightness:(( arc4random() % 128 / 256.0 ) + 0.5) alpha:1]
@@ -57,5 +64,17 @@
 #define BOLDSYSTEMFONT(FONTSIZE)[UIFont boldSystemFontOfSize:FONTSIZE]
 #define SYSTEMFONT(FONTSIZE)    [UIFont systemFontOfSize:FONTSIZE]
 #define FONT(NAME, FONTSIZE)    [UIFont fontWithName:(NAME) size:(FONTSIZE)]
+
+
+// View 圆角
+#define ViewRadius(View, Radius)\
+[View.layer setCornerRadius:(Radius)];\
+[View.layer setMasksToBounds:YES]
+
+
+
+
+
+
 
 #endif /* FontAndColorMacros_h */

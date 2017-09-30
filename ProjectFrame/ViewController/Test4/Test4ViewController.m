@@ -19,8 +19,13 @@
     self.navigationItem.title = @"哈哈哈";
     
     self.StatusBarStyle = UIStatusBarStyleLightContent;
-//    self.view.backgroundColor = RANDOM_COLOR;
+    self.view.backgroundColor = RANDOM_COLOR;
     // Do any additional setup after loading the view.
+}
+
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    [self.navigationController setNavigationBarHidden:YES animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

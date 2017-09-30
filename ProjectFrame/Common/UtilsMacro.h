@@ -33,12 +33,21 @@
 #define KScreenHeight [[UIScreen mainScreen] bounds].size.height
 #define kScreen_Bounds [UIScreen mainScreen].bounds
 
+#define KSCALE_WIDTH [UIScreen mainScreen].bounds.size.width/375
+#define KSCALE_HEIGHT [UIScreen mainScreen].bounds.size.height/667
+
+#define KAdaptX(x) [UIScreen mainScreen].bounds.size.width / 375 * x
+#define KAdaptY(y) [UIScreen mainScreen].bounds.size.height / 667 * y
+#define KHAdaptX(x) [UIScreen mainScreen].bounds.size.width / 667 * x
+#define KHAdaptY(y) [UIScreen mainScreen].bounds.size.height / 375 * y
+#define KLeftPadding AdaptX(10)
 
 #define kDeviceVersion [[UIDevice currentDevice].systemVersion floatValue]
 #define kNavbarHeight ((kDeviceVersion>=7.0)? 64 :44 )
 #define kIOS7DELTA   ((kDeviceVersion>=7.0)? 20 :0 )
 #define kTabBarHeight 49
-// navigation fontSize
+#define kMarginBetween 5
+#define kStatusHeight 20
 #define kPolicyDetailHeaderViewHeight 77.f
 #define kReimbursedByThirdPartyButtonTag 500
 #define kIphone5TextFont 13.f
@@ -54,7 +63,8 @@
 //发送通知
 #define KPostNotification(name,obj) [[NSNotificationCenter defaultCenter] postNotificationName:name object:obj];
 /** 设置图片 */
-#define kGetImage(imageName) [UIImage imageNamed:[NSString stringWithFormat:@"%@",imageName]]
+#define kImageName(imageName) [UIImage imageNamed:[NSString stringWithFormat:@"%@",imageName]]
+
 
 //拼接字符串
 #define kNSStringFormat(format,...) [NSString stringWithFormat:format,##__VA_ARGS__]
@@ -80,18 +90,30 @@
 
 /** 弱引用 */
 #define WEAKSELF __weak typeof(self) weakSelf = self
-
 #define WS(weakSelf) __weak __typeof(&*self)weakSelf = self;
+
+#define WEAK  @weakify(self);
+
+#define STRONG  @strongify(self);
 
 /** 避免self的提前释放 */
 #define STRONGSELF __weak typeof(weakSelf) strongSelf = weakSelf
 
-/** 修改Log,debug：WMLog，执行NSLog，release，自动忽略 */
+///** 修改Log,debug：WMLog，执行NSLog，release，自动忽略 */
 #ifdef DEBUG
-#define WMLog(...) NSLog(__VA_ARGS__)
+#define WMLog(FORMAT, ...) fprintf(stderr, "%s:%zd\t%s\n", [[[NSString stringWithUTF8String: __FILE__] lastPathComponent] UTF8String], __LINE__, [[NSString stringWithFormat: FORMAT, ## __VA_ARGS__] UTF8String]);
 #else
-#define WMLog(...)
+#define WMLog(FORMAT, ...) nil
 #endif
+
+
+
+
+
+
+
+
+
 
 
 

@@ -61,7 +61,7 @@
 }
 
 #pragma mark ————— 第一次启动引导页 —————
--(void)loadRootVC {
+-(void)loadGuideVC {
 //    if (![kUserDefaults boolForKey:@"firstLaunch"]) {
 //        [kUserDefaults setBool:YES forKey:@"firstLaunch"];
 //        [kUserDefaults synchronize];
@@ -140,6 +140,7 @@
 
 - (void)tabBarController:(UITabBarController *)tabBarController didSelectControl:(UIControl *)control {
     
+//    WMLog(@"点击了tabbar-----%lu",(unsigned long)tabBarController.selectedIndex);
     UIView *animationView;
     if ([control cyl_isTabButton]) {
         //更改红标状态  点 或 数字
@@ -160,7 +161,7 @@
     }
     
 //    if ([self cyl_tabBarController].selectedIndex % 2 == 0) {
-    [self addScaleAnimationOnView:animationView repeatCount:1 isAnimation:YES];
+    [self addScaleAnimationOnView:animationView repeatCount:1 isAnimation:NO];
 //    } else {
 //        [self addRotateAnimationOnView:animationView];
 //    }
