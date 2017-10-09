@@ -8,6 +8,8 @@
 
 #import "JDLHomeScrollviewCell.h"
 
+#import "Test2ViewController.h"
+
 #import "JDLListBaseModel.h"
 
 @interface JDLHomeScrollviewCell()<SDCycleScrollViewDelegate>
@@ -24,7 +26,7 @@
     
     if (self =[super initWithFrame:frame]) {
         
-        self.backgroundColor =KYellowColor;
+        self.backgroundColor =KClearColor;
         //创建头部轮番图
         [self createScrollviewUI];
     }
@@ -35,11 +37,13 @@
     
     self.cycleScrollview = [SDCycleScrollView cycleScrollViewWithFrame:self.bounds imageNamesGroup:nil];
     self.cycleScrollview.delegate =self;
-    self.cycleScrollview.backgroundColor = KRedColor;
+    self.cycleScrollview.backgroundColor = KClearColor;
+    self.cycleScrollview.scrollDirection = UICollectionViewScrollDirectionVertical;
+    self.cycleScrollview.pageControlAliment = SDCycleScrollViewPageContolAlimentRight;
     self.cycleScrollview.pageControlStyle = SDCycleScrollViewPageContolStyleAnimated;
     self.cycleScrollview.pageDotImage = kImageName(@"YCMainPage_Banner_Index");
     self.cycleScrollview.currentPageDotImage = kImageName(@"YCMainPage_Banner_Index_Selected");
-    self.cycleScrollview.autoScrollTimeInterval = 5.0f;
+    self.cycleScrollview.autoScrollTimeInterval = 3.0f;
     [self.contentView addSubview:self.cycleScrollview];
 }
 
@@ -62,6 +66,7 @@
 
 -(void)cycleScrollView:(SDCycleScrollView *)cycleScrollView didSelectItemAtIndex:(NSInteger)index{
     
+    [self.homeVC.navigationController pushViewController:[[Test2ViewController alloc]init] animated:YES];
     WMLog(@"6666====%ld",(long)index);
     
 }
