@@ -9,7 +9,7 @@
 #import "JDLTabbarController.h"
 
 #import "JDLHomeViewController.h"
-#import "Test2ViewController.h"
+#import "JDLNewsViewController.h"
 #import "Test3ViewController.h"
 #import "Test4ViewController.h"
 
@@ -56,7 +56,7 @@ static CGFloat const CYLTabBarControllerHeight = 40.f;
     JDLHomeViewController *home = [[JDLHomeViewController alloc] init];
     BaseNavigationController *navHome = [[BaseNavigationController alloc] initWithRootViewController:home];
     
-    Test2ViewController *city = [[Test2ViewController alloc] init];
+    JDLNewsViewController *city = [[JDLNewsViewController alloc] init];
     BaseNavigationController *navCity = [[BaseNavigationController alloc] initWithRootViewController:city];
     
     Test3ViewController *show = [[Test3ViewController alloc] init];
@@ -106,7 +106,7 @@ static CGFloat const CYLTabBarControllerHeight = 40.f;
 
     // Customize UITabBar height
     // 自定义 TabBar 高度
-    //     tabBarController.tabBarHeight = CYLTabBarControllerHeight;
+//    tabBarController.tabBarHeight = CYLTabBarControllerHeight;
     
     // set the text color for unselected state
     // 普通状态下的文字属性
@@ -144,6 +144,7 @@ static CGFloat const CYLTabBarControllerHeight = 40.f;
     // 设置背景图片
          UITabBar *tabBarAppearance = [UITabBar appearance];
 //         [tabBarAppearance setBackgroundImage:[UIImage imageNamed:@"tab_bar"]];
+    // 设置tabbar背景颜色
     [tabBarAppearance setBackgroundColor:KClearColor];
     
     // remove the bar system shadow image

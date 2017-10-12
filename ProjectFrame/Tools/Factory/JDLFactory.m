@@ -30,7 +30,7 @@
 }
 
 + (BaseButton *)buttonWithTitle:(NSString *)title image:(UIImage *)image frame:(CGRect)frame {
-    return [self buttonWithTitle:title image:image frame:frame font:SYSTEMFONT(14) fontColor:[UIColor blackColor]];
+    return [self buttonWithTitle:title image:image frame:frame font:KSYSTEMFONT(KAdaptX(14)) fontColor:[UIColor blackColor]];
 }
 
 + (BaseButton *)buttonWithImage:(UIImage *)image frame:(CGRect)frame font:(UIFont *)font fontColor:(UIColor *)color {
@@ -55,8 +55,8 @@
 }
 
 + (BaseButton *)MainButtonWithTitle:(NSString *)title frame:(CGRect)frame target:(id)target action:(SEL)action {
-    BaseButton *button = [self buttonWithTitle:title frame:frame font:SYSTEMFONT(15) fontColor:[UIColor whiteColor]];
-    button.titleLabel.font = SYSTEMFONT(14);
+    BaseButton *button = [self buttonWithTitle:title frame:frame font:KSYSTEMFONT(KAdaptX(15)) fontColor:[UIColor whiteColor]];
+    button.titleLabel.font = KSYSTEMFONT(KAdaptX(14));
     button.backgroundColor = KOrangeColor;
     [button addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
     ViewRadius(button, 5);
@@ -89,7 +89,7 @@
     return [self labelWithText:text frame:CGRectZero textFont:font];
 }
 + (BaseLabel *)labelWithText:(NSString *)text frame:(CGRect)frame {
-    return [self labelWithText:text frame:frame textFont:SYSTEMFONT(14)];
+    return [self labelWithText:text frame:frame textFont:KSYSTEMFONT(KAdaptX(14))];
 }
 
 + (BaseLabel *)labelWithText:(NSString *)text frame:(CGRect)frame textFont:(UIFont *)font {
@@ -165,7 +165,7 @@
 }
 
 + (BaseTextField *)textFieldWithPlaceholder:(NSString *)text frame:(CGRect)frame {
-    return [self textFieldWithPlaceholder:text frame:frame font:SYSTEMFONT(14)];
+    return [self textFieldWithPlaceholder:text frame:frame font:KSYSTEMFONT(KAdaptX(14))];
 }
 
 + (BaseTextField *)textFieldWithPlaceholder:(NSString *)text frame:(CGRect)frame font:(UIFont *)font {
@@ -173,7 +173,7 @@
 }
 
 + (BaseTextField *)textFieldWithPlaceholder:(NSString *)text frame:(CGRect)frame backgroudImage:(UIImage *)image {
-    return [self textFieldWithPlaceholder:text frame:frame font:SYSTEMFONT(14) fontColor:[UIColor darkTextColor] backgroudImage:image];
+    return [self textFieldWithPlaceholder:text frame:frame font:KSYSTEMFONT(KAdaptX(14)) fontColor:[UIColor darkTextColor] backgroudImage:image];
 }
 
 + (BaseTextField *)textFieldWithPlaceholder:(NSString *)text frame:(CGRect)frame font:(UIFont *)font fontColor:(UIColor *)color {
@@ -208,7 +208,7 @@
 #pragma mark - TextView
 
 + (BaseTextView *)textViewWithText:(NSString *)text frame:(CGRect)frame {
-    return [self textViewWithText:text frame:frame font:SYSTEMFONT(14)];
+    return [self textViewWithText:text frame:frame font:KSYSTEMFONT(KAdaptX(14))];
 }
 
 + (BaseTextView *)textViewWithText:(NSString *)text frame:(CGRect)frame font:(UIFont *)font {

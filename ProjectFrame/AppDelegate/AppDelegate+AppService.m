@@ -77,10 +77,10 @@
 -(void)setTabbarBadgeTypeWithTabbar:(CYLTabBarController *)tabBarController{
     
     [tabBarController setViewDidLayoutSubViewsBlock:^(CYLTabBarController *aTabBarController) {
-        UIViewController *viewController = aTabBarController.viewControllers[0];
+
         UIView *tabBadgePointView0 = [UIView cyl_tabBadgePointViewWithClolor:RANDOM_COLOR radius:4.5];
-        [viewController.tabBarItem.cyl_tabButton cyl_setTabBadgePointView:tabBadgePointView0];
-        [viewController cyl_showTabBadgePoint];
+        [aTabBarController.viewControllers[0] cyl_setTabBadgePointView:tabBadgePointView0];
+        [aTabBarController.viewControllers[0] cyl_showTabBadgePoint];
         
         UIView *tabBadgePointView1 = [UIView cyl_tabBadgePointViewWithClolor:RANDOM_COLOR radius:4.5];
         [aTabBarController.viewControllers[1] cyl_setTabBadgePointView:tabBadgePointView1];
@@ -90,10 +90,16 @@
         [aTabBarController.viewControllers[2] cyl_setTabBadgePointView:tabBadgePointView2];
         [aTabBarController.viewControllers[2] cyl_showTabBadgePoint];
         
+        UIView *tabBadgePointView3 = [UIView cyl_tabBadgePointViewWithClolor:RANDOM_COLOR radius:4.5];
+        [aTabBarController.viewControllers[3] cyl_setTabBadgePointView:tabBadgePointView3];
         [aTabBarController.viewControllers[3] cyl_showTabBadgePoint];
         
+        UIView *tabBadgePointView4 = [UIView cyl_tabBadgePointViewWithClolor:RANDOM_COLOR radius:4.5];
+        [aTabBarController.viewControllers[4] cyl_setTabBadgePointView:tabBadgePointView4];
+        [aTabBarController.viewControllers[4] cyl_showTabBadgePoint];
+        
         //添加提示动画，引导用户点击
-        [self addScaleAnimationOnView:aTabBarController.viewControllers[3].cyl_tabButton.cyl_tabImageView repeatCount:20 isAnimation:NO];
+        [self addScaleAnimationOnView:aTabBarController.viewControllers[3].cyl_tabButton.cyl_tabImageView repeatCount:20 isAnimation:YES];
     }];
     
     tabBarController.delegate = self;
@@ -161,7 +167,7 @@
     }
     
 //    if ([self cyl_tabBarController].selectedIndex % 2 == 0) {
-    [self addScaleAnimationOnView:animationView repeatCount:1 isAnimation:NO];
+    [self addScaleAnimationOnView:animationView repeatCount:1 isAnimation:YES];
 //    } else {
 //        [self addRotateAnimationOnView:animationView];
 //    }
@@ -200,7 +206,6 @@
 
 #pragma mark 适配iOS11
 -(void)adaptationNewIOS{
-
     if (@available(ios 11.0,*)) {
         UIScrollView.appearance.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
         UITableView.appearance.estimatedRowHeight = 0;

@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8203A1CF1F8E0EB80075E123 /* JDLSocietyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8203A1CE1F8E0EB80075E123 /* JDLSocietyViewController.m */; };
+		8203A1D21F8E0EDF0075E123 /* JDLOtherNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8203A1D11F8E0EDF0075E123 /* JDLOtherNewsViewController.m */; };
+		8203A1F11F8E12790075E123 /* WMPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8203A1F01F8E12740075E123 /* WMPageController.m */; };
+		8203A1F21F8E127E0075E123 /* WMMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8203A1E81F8E12740075E123 /* WMMenuItem.m */; };
+		8203A1F31F8E12800075E123 /* WMMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8203A1EA1F8E12740075E123 /* WMMenuView.m */; };
+		8203A1F41F8E12830075E123 /* WMProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8203A1EC1F8E12740075E123 /* WMProgressView.m */; };
+		8203A1F51F8E12860075E123 /* WMScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8203A1EE1F8E12740075E123 /* WMScrollView.m */; };
 		820832CB1F7C82A700F9A5C4 /* JDLBaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 820832CA1F7C82A700F9A5C4 /* JDLBaseService.m */; };
 		820832D41F7C84A400F9A5C4 /* JDLHomeUIService.m in Sources */ = {isa = PBXBuildFile; fileRef = 820832D31F7C84A400F9A5C4 /* JDLHomeUIService.m */; };
 		820832DA1F7C962F00F9A5C4 /* JDLFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 820832D91F7C962500F9A5C4 /* JDLFactory.m */; };
@@ -73,7 +80,7 @@
 		82C8E4131F7A023200514591 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 821CE0211F79E6BB00CC0AED /* UIView+WebCacheOperation.m */; };
 		82C8E41A1F7A03A500514591 /* Test4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E4191F7A03A500514591 /* Test4ViewController.m */; };
 		82C8E41D1F7A03B700514591 /* Test3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E41C1F7A03B700514591 /* Test3ViewController.m */; };
-		82C8E4201F7A03C100514591 /* Test2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E41F1F7A03C100514591 /* Test2ViewController.m */; };
+		82C8E4201F7A03C100514591 /* JDLNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E41F1F7A03C100514591 /* JDLNewsViewController.m */; };
 		82C8E4231F7A03CA00514591 /* JDLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E4221F7A03CA00514591 /* JDLHomeViewController.m */; };
 		82C8E4261F7A043600514591 /* JDLTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E4251F7A043600514591 /* JDLTabbarController.m */; };
 		82C8E4361F7A109B00514591 /* CYLPlusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E42B1F7A108100514591 /* CYLPlusButton.m */; };
@@ -137,6 +144,20 @@
 
 /* Begin PBXFileReference section */
 		64C7F0ED8618F18593D54FC0 /* Pods-ProjectFrame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectFrame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectFrame/Pods-ProjectFrame.debug.xcconfig"; sourceTree = "<group>"; };
+		8203A1CD1F8E0EB80075E123 /* JDLSocietyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDLSocietyViewController.h; sourceTree = "<group>"; };
+		8203A1CE1F8E0EB80075E123 /* JDLSocietyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDLSocietyViewController.m; sourceTree = "<group>"; };
+		8203A1D01F8E0EDF0075E123 /* JDLOtherNewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDLOtherNewsViewController.h; sourceTree = "<group>"; };
+		8203A1D11F8E0EDF0075E123 /* JDLOtherNewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDLOtherNewsViewController.m; sourceTree = "<group>"; };
+		8203A1E71F8E12740075E123 /* WMMenuItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMMenuItem.h; sourceTree = "<group>"; };
+		8203A1E81F8E12740075E123 /* WMMenuItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMMenuItem.m; sourceTree = "<group>"; };
+		8203A1E91F8E12740075E123 /* WMMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMMenuView.h; sourceTree = "<group>"; };
+		8203A1EA1F8E12740075E123 /* WMMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMMenuView.m; sourceTree = "<group>"; };
+		8203A1EB1F8E12740075E123 /* WMProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMProgressView.h; sourceTree = "<group>"; };
+		8203A1EC1F8E12740075E123 /* WMProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMProgressView.m; sourceTree = "<group>"; };
+		8203A1ED1F8E12740075E123 /* WMScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMScrollView.h; sourceTree = "<group>"; };
+		8203A1EE1F8E12740075E123 /* WMScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMScrollView.m; sourceTree = "<group>"; };
+		8203A1EF1F8E12740075E123 /* WMPageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMPageController.h; sourceTree = "<group>"; };
+		8203A1F01F8E12740075E123 /* WMPageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMPageController.m; sourceTree = "<group>"; };
 		820832C91F7C82A700F9A5C4 /* JDLBaseService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDLBaseService.h; sourceTree = "<group>"; };
 		820832CA1F7C82A700F9A5C4 /* JDLBaseService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDLBaseService.m; sourceTree = "<group>"; };
 		820832D21F7C84A400F9A5C4 /* JDLHomeUIService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDLHomeUIService.h; sourceTree = "<group>"; };
@@ -270,8 +291,8 @@
 		82C8E4191F7A03A500514591 /* Test4ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test4ViewController.m; sourceTree = "<group>"; };
 		82C8E41B1F7A03B700514591 /* Test3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test3ViewController.h; sourceTree = "<group>"; };
 		82C8E41C1F7A03B700514591 /* Test3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test3ViewController.m; sourceTree = "<group>"; };
-		82C8E41E1F7A03C100514591 /* Test2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test2ViewController.h; sourceTree = "<group>"; };
-		82C8E41F1F7A03C100514591 /* Test2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test2ViewController.m; sourceTree = "<group>"; };
+		82C8E41E1F7A03C100514591 /* JDLNewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDLNewsViewController.h; sourceTree = "<group>"; };
+		82C8E41F1F7A03C100514591 /* JDLNewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDLNewsViewController.m; sourceTree = "<group>"; };
 		82C8E4211F7A03CA00514591 /* JDLHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDLHomeViewController.h; sourceTree = "<group>"; };
 		82C8E4221F7A03CA00514591 /* JDLHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDLHomeViewController.m; sourceTree = "<group>"; };
 		82C8E4241F7A043600514591 /* JDLTabbarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDLTabbarController.h; sourceTree = "<group>"; };
@@ -395,6 +416,69 @@
 				E1103489F41B0264E644B0D3 /* Pods-ProjectFrame.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		8203A1C81F8E010A0075E123 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				8203A1CB1F8E01330075E123 /* View */,
+				8203A1CA1F8E01280075E123 /* Controller */,
+				8203A1C91F8E011D0075E123 /* Model */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		8203A1C91F8E011D0075E123 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8203A1CA1F8E01280075E123 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				82C8E41E1F7A03C100514591 /* JDLNewsViewController.h */,
+				82C8E41F1F7A03C100514591 /* JDLNewsViewController.m */,
+				8203A1CD1F8E0EB80075E123 /* JDLSocietyViewController.h */,
+				8203A1CE1F8E0EB80075E123 /* JDLSocietyViewController.m */,
+				8203A1D01F8E0EDF0075E123 /* JDLOtherNewsViewController.h */,
+				8203A1D11F8E0EDF0075E123 /* JDLOtherNewsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8203A1CB1F8E01330075E123 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8203A1E51F8E12740075E123 /* WMPageController */ = {
+			isa = PBXGroup;
+			children = (
+				8203A1E61F8E12740075E123 /* WMMenuView */,
+				8203A1EF1F8E12740075E123 /* WMPageController.h */,
+				8203A1F01F8E12740075E123 /* WMPageController.m */,
+			);
+			name = WMPageController;
+			path = "../../../../myappSuper-Education/Pods/WMPageController/WMPageController";
+			sourceTree = "<group>";
+		};
+		8203A1E61F8E12740075E123 /* WMMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				8203A1E71F8E12740075E123 /* WMMenuItem.h */,
+				8203A1E81F8E12740075E123 /* WMMenuItem.m */,
+				8203A1E91F8E12740075E123 /* WMMenuView.h */,
+				8203A1EA1F8E12740075E123 /* WMMenuView.m */,
+				8203A1EB1F8E12740075E123 /* WMProgressView.h */,
+				8203A1EC1F8E12740075E123 /* WMProgressView.m */,
+				8203A1ED1F8E12740075E123 /* WMScrollView.h */,
+				8203A1EE1F8E12740075E123 /* WMScrollView.m */,
+			);
+			path = WMMenuView;
 			sourceTree = "<group>";
 		};
 		820832C81F7C828800F9A5C4 /* Model */ = {
@@ -649,6 +733,7 @@
 		821CDFF51F79E5AF00CC0AED /* ThirdLib */ = {
 			isa = PBXGroup;
 			children = (
+				8203A1E51F8E12740075E123 /* WMPageController */,
 				820882151F7E2A72000B898B /* SDCycleScrollView */,
 				82C8E44B1F7A4F8000514591 /* MJRefresh */,
 				821CE0371F79E81600CC0AED /* CYLTabBarController */,
@@ -684,7 +769,7 @@
 				820882391F7F33EE000B898B /* Main(管理类) */,
 				82C8E4171F7A038400514591 /* Test4 */,
 				82C8E4161F7A037C00514591 /* Test3 */,
-				82C8E4151F7A034E00514591 /* Test2 */,
+				82C8E4151F7A034E00514591 /* News */,
 				82C8E4141F7A033F00514591 /* Home */,
 				821CE0441F79E9E900CC0AED /* BaseViewController */,
 			);
@@ -824,13 +909,12 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
-		82C8E4151F7A034E00514591 /* Test2 */ = {
+		82C8E4151F7A034E00514591 /* News */ = {
 			isa = PBXGroup;
 			children = (
-				82C8E41E1F7A03C100514591 /* Test2ViewController.h */,
-				82C8E41F1F7A03C100514591 /* Test2ViewController.m */,
+				8203A1C81F8E010A0075E123 /* News */,
 			);
-			path = Test2;
+			path = News;
 			sourceTree = "<group>";
 		};
 		82C8E4161F7A037C00514591 /* Test3 */ = {
@@ -1227,6 +1311,7 @@
 				820832F01F7C96F100F9A5C4 /* BaseTableView.m in Sources */,
 				82C8E4371F7A10A100514591 /* CYLTabBar.m in Sources */,
 				82C8E40D1F7A022400514591 /* UIButton+WebCache.m in Sources */,
+				8203A1F51F8E12860075E123 /* WMScrollView.m in Sources */,
 				82C8E4801F7A4FDC00514591 /* MJRefreshAutoGifFooter.m in Sources */,
 				820882251F7E2A7B000B898B /* SDCycleScrollView.m in Sources */,
 				820882311F7E4753000B898B /* JDLRequestTools.m in Sources */,
@@ -1258,6 +1343,7 @@
 				820832F81F7C984100F9A5C4 /* UILabel+JLAdd.m in Sources */,
 				820832F11F7C96F300F9A5C4 /* BaseTableViewCell.m in Sources */,
 				820882381F7F3005000B898B /* JDLLoadingView.m in Sources */,
+				8203A1D21F8E0EDF0075E123 /* JDLOtherNewsViewController.m in Sources */,
 				82C8E47C1F7A4FC300514591 /* NSBundle+MJRefresh.m in Sources */,
 				82C8E4101F7A022B00514591 /* UIImage+WebP.m in Sources */,
 				820832EE1F7C96ED00F9A5C4 /* BaseImageView.m in Sources */,
@@ -1268,12 +1354,14 @@
 				820832D41F7C84A400F9A5C4 /* JDLHomeUIService.m in Sources */,
 				82C8E4851F7A4FEE00514591 /* MJRefreshBackStateFooter.m in Sources */,
 				82C8E4061F7A020C00514591 /* SDImageCache.m in Sources */,
+				8203A1CF1F8E0EB80075E123 /* JDLSocietyViewController.m in Sources */,
 				82C8E47E1F7A4FC900514591 /* UIScrollView+MJRefresh.m in Sources */,
 				82C8E4AB1F7B52B100514591 /* JDLShowFPS.m in Sources */,
 				82C8E4881F7A4FFA00514591 /* MJRefreshStateHeader.m in Sources */,
 				82C8E40F1F7A022900514591 /* UIImage+MultiFormat.m in Sources */,
 				820832F51F7C96FF00F9A5C4 /* BaseView.m in Sources */,
 				82C8E40A1F7A021800514591 /* SDWebImageDownloaderOperation.m in Sources */,
+				8203A1F21F8E127E0075E123 /* WMMenuItem.m in Sources */,
 				82C8E4111F7A022D00514591 /* UIImageView+HighlightedWebCache.m in Sources */,
 				82C8E4421F7A342100514591 /* AppDelegate+AppService.m in Sources */,
 				820882141F7E1DC9000B898B /* JDLHomeScrollviewCell.m in Sources */,
@@ -1292,12 +1380,14 @@
 				82C8E48D1F7A500E00514591 /* MJRefreshHeader.m in Sources */,
 				82C8E41A1F7A03A500514591 /* Test4ViewController.m in Sources */,
 				821CDFD31F79E37200CC0AED /* main.m in Sources */,
+				8203A1F41F8E12830075E123 /* WMProgressView.m in Sources */,
 				8208823F1F7F345C000B898B /* JDLUserManagerCenetr.m in Sources */,
 				82C8E48C1F7A500A00514591 /* MJRefreshFooter.m in Sources */,
 				82C8E4391F7A10A600514591 /* UIControl+CYLTabBarControllerExtention.m in Sources */,
 				82C8E43F1F7A186300514591 /* JDLTabbarPlusButton.m in Sources */,
 				820882481F7F79B5000B898B /* UICollectionViewCell+updateModel.m in Sources */,
 				82C8E43A1F7A10A900514591 /* UITabBarItem+CYLTabBarControllerExtention.m in Sources */,
+				8203A1F31F8E12800075E123 /* WMMenuView.m in Sources */,
 				82C8E4831F7A4FEA00514591 /* MJRefreshBackGifFooter.m in Sources */,
 				82C8E4081F7A021200514591 /* SDWebImageDecoder.m in Sources */,
 				820882451F7F6598000B898B /* JDLListBaseModel.m in Sources */,
@@ -1308,6 +1398,7 @@
 				82C8E4231F7A03CA00514591 /* JDLHomeViewController.m in Sources */,
 				82C8E4A31F7B43EA00514591 /* AppManager.m in Sources */,
 				820882421F7F3FB3000B898B /* JDLHomeScrollModel.m in Sources */,
+				8203A1F11F8E12790075E123 /* WMPageController.m in Sources */,
 				821CDFCB1F79E37200CC0AED /* ProjectFrame.xcdatamodeld in Sources */,
 				821CE0471F79EA1600CC0AED /* BaseNavigationController.m in Sources */,
 				82C8E4261F7A043600514591 /* JDLTabbarController.m in Sources */,
@@ -1315,7 +1406,7 @@
 				82C8E4AF1F7B58DA00514591 /* UserGuideViewController.m in Sources */,
 				82C8E43C1F7A10B000514591 /* UIViewController+CYLTabBarControllerExtention.m in Sources */,
 				82C8E40C1F7A022100514591 /* SDWebImagePrefetcher.m in Sources */,
-				82C8E4201F7A03C100514591 /* Test2ViewController.m in Sources */,
+				82C8E4201F7A03C100514591 /* JDLNewsViewController.m in Sources */,
 				82C8E4041F7A020600514591 /* MKAnnotationView+WebCache.m in Sources */,
 				820882241F7E2A78000B898B /* SDCollectionViewCell.m in Sources */,
 				82C8E4381F7A10A400514591 /* CYLTabBarController.m in Sources */,

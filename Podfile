@@ -7,6 +7,7 @@ pod 'YTKNetwork'
 pod 'ReactiveCocoa','2.5'
 pod 'SVProgressHUD'
 pod 'JSONModel'
+pod 'MJExtension', '~> 3.0.13'
 #pod 'YYModel'
 #pod 'SDCycleScrollView'
 end

@@ -307,7 +307,7 @@
         btn.frame = CGRectMake(0, 0, 30, 20);
         [btn setTitle:title forState:UIControlStateNormal];
         [btn addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
-        btn.titleLabel.font = SYSTEMFONT(16);
+        btn.titleLabel.font = KSYSTEMFONT(KAdaptX(16));
         [btn setTitleColor:KBlackColor forState:UIControlStateNormal];
         btn.tag = [tags[i++] integerValue];
         [btn sizeToFit];

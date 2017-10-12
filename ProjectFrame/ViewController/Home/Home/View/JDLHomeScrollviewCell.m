@@ -8,7 +8,7 @@
 
 #import "JDLHomeScrollviewCell.h"
 
-#import "Test2ViewController.h"
+#import "JDLNewsViewController.h"
 
 #import "JDLListBaseModel.h"
 
@@ -66,7 +66,7 @@
 
 -(void)cycleScrollView:(SDCycleScrollView *)cycleScrollView didSelectItemAtIndex:(NSInteger)index{
     
-    [self.homeVC.navigationController pushViewController:[[Test2ViewController alloc]init] animated:YES];
+    [self.homeVC.navigationController pushViewController:[[JDLNewsViewController alloc]init] animated:YES];
     WMLog(@"6666====%ld",(long)index);
     
 }

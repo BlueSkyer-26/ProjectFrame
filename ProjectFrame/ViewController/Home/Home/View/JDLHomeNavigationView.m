@@ -29,7 +29,7 @@
     
     self.backgroundColor =KClearColor;
     
-    self.scanButton = [JDLFactory buttonWithTitle:@"扫码" image:kImageName(@"JDMainPage_icon_scan_18x18_") frame:CGRectMake(kMarginBetween, kStatusHeight, 44, 44) font:SYSTEMFONT(KAdaptX(11)) fontColor:KWhiteColor];
+    self.scanButton = [JDLFactory buttonWithTitle:@"扫码" image:kImageName(@"JDMainPage_icon_scan_18x18_") frame:CGRectMake(kMarginBetween, kStatusHeight, 44, 44) font:KSYSTEMFONT(KAdaptX(11)) fontColor:KWhiteColor];
     [self.scanButton layoutButtonWithEdgeInsetsStyle:MKButtonEdgeInsetsStyleTop imageTitleSpace:5];
     [self addSubview:self.scanButton];
     
@@ -43,10 +43,10 @@
     self.searchImageView =[JDLFactory imageViewWithImage:kImageName(@"JDMainPage_icon_search_15x15_") frame:CGRectMake(10, 7.5, 15, 15) contentMode:UIViewContentModeScaleAspectFit];
     [self.searchButton addSubview:self.searchImageView];
     
-    self.searchLabel =[JDLFactory labelWithText:@"搜索商品" frame:CGRectMake(self.searchImageView.right +kMarginBetween, 0, self.searchButton.width -15-self.searchImageView.width, self.searchButton.height) textFont:SYSTEMFONT(KAdaptX(14)) textColor:KWhiteColor];
+    self.searchLabel =[JDLFactory labelWithText:@"搜索商品" frame:CGRectMake(self.searchImageView.right +kMarginBetween, 0, self.searchButton.width -15-self.searchImageView.width, self.searchButton.height) textFont:KSYSTEMFONT(KAdaptX(14)) textColor:KWhiteColor];
     [self.searchButton addSubview:self.searchLabel];
     
-    self.messageButton = [JDLFactory buttonWithTitle:@"消息" image:kImageName(@"JDMainPage_icon_message_18x18_") frame:CGRectMake(self.width -kMarginBetween -44, kStatusHeight, 44, 44) font:SYSTEMFONT(KAdaptX(11)) fontColor:KWhiteColor];
+    self.messageButton = [JDLFactory buttonWithTitle:@"消息" image:kImageName(@"JDMainPage_icon_message_18x18_") frame:CGRectMake(self.width -kMarginBetween -44, kStatusHeight, 44, 44) font:KSYSTEMFONT(KAdaptX(11)) fontColor:KWhiteColor];
     [self.messageButton layoutButtonWithEdgeInsetsStyle:MKButtonEdgeInsetsStyleTop imageTitleSpace:5];
     [self addSubview:self.messageButton];
     

@@ -69,6 +69,7 @@
     [[self.homeNavigationView.scanButton rac_signalForControlEvents:UIControlEventTouchUpInside]subscribeNext:^(id x) {
 //        STRONG
         WMLog(@"扫一扫");
+//        [self.homeVC.navigationController pushViewController:[[Test2ViewController alloc]init] animated:YES];
     }];
     //搜索
     [[self.homeNavigationView.searchButton rac_signalForControlEvents:UIControlEventTouchUpInside]subscribeNext:^(id x) {

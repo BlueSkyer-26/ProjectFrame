@@ -25,7 +25,7 @@
 @end
 
 // 广告显示的时间
-static int const showtime = 1.5;
+static int const showtime = 0.5;
 
 @implementation AdPageView
 

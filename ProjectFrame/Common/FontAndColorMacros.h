@@ -61,9 +61,9 @@
 #pragma mark -  字体区
 #define FFont1 [UIFont systemFontOfSize:12.0f]
 
-#define BOLDSYSTEMFONT(FONTSIZE)[UIFont boldSystemFontOfSize:FONTSIZE]
-#define SYSTEMFONT(FONTSIZE)    [UIFont systemFontOfSize:FONTSIZE]
-#define FONT(NAME, FONTSIZE)    [UIFont fontWithName:(NAME) size:(FONTSIZE)]
+#define KBOLDSYSTEMFONT(FONTSIZE)[UIFont boldSystemFontOfSize:FONTSIZE]
+#define KSYSTEMFONT(FONTSIZE)    [UIFont systemFontOfSize:FONTSIZE]
+#define KFONT(NAME, FONTSIZE)    [UIFont fontWithName:(NAME) size:(FONTSIZE)]
 
 
 // View 圆角

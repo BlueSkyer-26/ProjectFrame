@@ -25,7 +25,7 @@
     
     self.view.backgroundColor = KPurpleColor;
     self.navigationItem.title = @"首页(3)";
-    [self.navigationController.tabBarItem setBadgeValue:@"300"];
+//    [self.navigationController.tabBarItem setBadgeValue:@"300"];
     
     self.viewModel = [[JDLHomeViewModel alloc] init];
     self.homeUIService = [[JDLHomeUIService alloc] initWithVC:self ViewModel:self.viewModel];
@@ -33,7 +33,24 @@
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     [self.navigationController setNavigationBarHidden:YES animated:YES];
+    
+    [self.navigationController.navigationBar wm_setBackgroundColor:[UIColor redColor] isHiddenBottomBlackLine:NO];
 }
+
+-(void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
+    [self.navigationController.navigationBar wm_reset];
+}
+
+//返回图片
+-(NSString *)backItemImageName{
+    return @"back_green";
+}
+//是否关闭返回手势
+-(BOOL)gestureRecognizerShouldBegin{
+    return YES;
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

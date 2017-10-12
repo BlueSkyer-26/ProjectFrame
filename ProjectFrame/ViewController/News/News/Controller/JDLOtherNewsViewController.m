@@ -1,22 +1,24 @@
 //
-//  Test2ViewController.m
+//  JDLOtherNewsViewController.m
 //  ProjectFrame
 //
-//  Created by 胜炫电子 on 2017/9/26.
+//  Created by 胜炫电子 on 2017/10/11.
 //  Copyright © 2017年 BlueSkyer-25. All rights reserved.
 //
 
-#import "Test2ViewController.h"
+#import "JDLOtherNewsViewController.h"
 
-@interface Test2ViewController ()
+@interface JDLOtherNewsViewController ()
 
 @end
 
-@implementation Test2ViewController
+@implementation JDLOtherNewsViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = RANDOM_COLOR;
+    self.view.backgroundColor = KPurpleColor;
+    
+    WMLog(@"66666====%@",self.content);
     // Do any additional setup after loading the view.
 }
 
