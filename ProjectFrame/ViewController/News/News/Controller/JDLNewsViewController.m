@@ -50,7 +50,7 @@
     
     self.view.backgroundColor =KWhiteColor;
     
-    
+    //kk
 }
 
 - (NSInteger)numbersOfChildControllersInPageController:(WMPageController *)pageController{

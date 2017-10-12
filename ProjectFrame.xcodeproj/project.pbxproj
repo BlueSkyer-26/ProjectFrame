@@ -1578,7 +1578,7 @@
 				DEVELOPMENT_TEAM = P9TSVR4F6P;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/shengxuandianzi/Desktop/SunBoyDocument/ProjectFrame/ProjectFrame/Common/ProjectFramePch.pch;
+				GCC_PREFIX_HEADER = /Users/shengxuandianzi/Desktop/MyProject/ProjectFrame/ProjectFrame/Common/ProjectFramePch.pch;
 				INFOPLIST_FILE = ProjectFrame/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1597,7 +1597,7 @@
 				DEVELOPMENT_TEAM = P9TSVR4F6P;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/shengxuandianzi/Desktop/SunBoyDocument/ProjectFrame/ProjectFrame/Common/ProjectFramePch.pch;
+				GCC_PREFIX_HEADER = /Users/shengxuandianzi/Desktop/MyProject/ProjectFrame/ProjectFrame/Common/ProjectFramePch.pch;
 				INFOPLIST_FILE = ProjectFrame/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
