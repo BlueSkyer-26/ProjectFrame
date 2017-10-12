@@ -51,6 +51,8 @@
 #define KRGBAllColor(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
 #define KWhiteAlphaColor(a) [[UIColor whiteColor] colorWithAlphaComponent:a];
 
+#define HEXColor(HexColor) [UIColor colorWithHexString:HexColor]
+
 //页面的基础背景色
 #define KVIEW_BASE_COLOR KRGBAllColor(243, 243, 246, 1.0)
 

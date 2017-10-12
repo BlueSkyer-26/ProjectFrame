@@ -117,6 +117,30 @@
 		82C8E4A71F7B47CC00514591 /* AdPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E4A61F7B47CC00514591 /* AdPageView.m */; };
 		82C8E4AB1F7B52B100514591 /* JDLShowFPS.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E4AA1F7B52B100514591 /* JDLShowFPS.m */; };
 		82C8E4AF1F7B58DA00514591 /* UserGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E4AE1F7B58C800514591 /* UserGuideViewController.m */; };
+		82ED00021F8F35B000ABEF5A /* JDLSocietyNewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED00011F8F35B000ABEF5A /* JDLSocietyNewsModel.m */; };
+		82ED00061F8F3E6C00ABEF5A /* JDLVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED00051F8F3E6C00ABEF5A /* JDLVideoViewController.m */; };
+		82ED000C1F8F4E3B00ABEF5A /* JDLVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED000B1F8F4E3B00ABEF5A /* JDLVideoModel.m */; };
+		82ED00101F8F530300ABEF5A /* JDLRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED000F1F8F530300ABEF5A /* JDLRefreshGifHeader.m */; };
+		82ED00171F8F536400ABEF5A /* normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82ED00121F8F535600ABEF5A /* normal@2x.png */; };
+		82ED00181F8F536700ABEF5A /* Pulling@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82ED00131F8F535600ABEF5A /* Pulling@2x.png */; };
+		82ED00191F8F536900ABEF5A /* refreshing_01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82ED00141F8F535600ABEF5A /* refreshing_01@2x.png */; };
+		82ED001A1F8F536B00ABEF5A /* refreshing_02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82ED00151F8F535600ABEF5A /* refreshing_02@2x.png */; };
+		82ED001B1F8F536D00ABEF5A /* refreshing_03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82ED00161F8F535600ABEF5A /* refreshing_03@2x.png */; };
+		82ED001E1F8F547F00ABEF5A /* JDLRefreshGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED001D1F8F547F00ABEF5A /* JDLRefreshGifFooter.m */; };
+		82ED00211F8F572400ABEF5A /* JDLVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED00201F8F572400ABEF5A /* JDLVideoCell.m */; };
+		82ED002D1F8F58D600ABEF5A /* FastForwardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED00261F8F58CE00ABEF5A /* FastForwardView.m */; };
+		82ED002E1F8F58D900ABEF5A /* WMLightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED00291F8F58CE00ABEF5A /* WMLightView.m */; };
+		82ED002F1F8F58DD00ABEF5A /* WMPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 82ED002A1F8F58CE00ABEF5A /* WMPlayer.bundle */; };
+		82ED00301F8F58DF00ABEF5A /* WMPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED002C1F8F58CE00ABEF5A /* WMPlayer.m */; };
+		82ED00331F8F59A800ABEF5A /* WMDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED00321F8F59A800ABEF5A /* WMDragView.m */; };
+		82ED00341F8F5DEB00ABEF5A /* FastForwardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82ED00271F8F58CE00ABEF5A /* FastForwardView.xib */; };
+		82ED003F1F8F632700ABEF5A /* GYPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED003D1F8F632400ABEF5A /* GYPlayer.m */; };
+		82ED00401F8F632900ABEF5A /* GYHCircleLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED00381F8F630200ABEF5A /* GYHCircleLoadingView.m */; };
+		82ED00411F8F632C00ABEF5A /* GYHCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED003A1F8F630200ABEF5A /* GYHCircleProgressView.m */; };
+		82ED00421F8F633000ABEF5A /* GYHSectorProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED003C1F8F630200ABEF5A /* GYHSectorProgressView.m */; };
+		82ED00451F8F66E900ABEF5A /* JDLVideoFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED00441F8F66E900ABEF5A /* JDLVideoFrame.m */; };
+		82ED00471F8F70BE00ABEF5A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82ED00461F8F70BE00ABEF5A /* AVFoundation.framework */; };
+		82ED00491F8F70CA00ABEF5A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82ED00481F8F70CA00ABEF5A /* AudioToolbox.framework */; };
 		82EDFFF01F8F027200ABEF5A /* WMMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EDFFE71F8F026500ABEF5A /* WMMenuItem.m */; };
 		82EDFFF11F8F027500ABEF5A /* WMMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EDFFE91F8F026500ABEF5A /* WMMenuView.m */; };
 		82EDFFF21F8F027700ABEF5A /* WMProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EDFFEB1F8F026500ABEF5A /* WMProgressView.m */; };
@@ -369,6 +393,45 @@
 		82C8E4AA1F7B52B100514591 /* JDLShowFPS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDLShowFPS.m; sourceTree = "<group>"; };
 		82C8E4AD1F7B58C800514591 /* UserGuideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserGuideViewController.h; sourceTree = "<group>"; };
 		82C8E4AE1F7B58C800514591 /* UserGuideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserGuideViewController.m; sourceTree = "<group>"; };
+		82ED00001F8F35B000ABEF5A /* JDLSocietyNewsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDLSocietyNewsModel.h; sourceTree = "<group>"; };
+		82ED00011F8F35B000ABEF5A /* JDLSocietyNewsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDLSocietyNewsModel.m; sourceTree = "<group>"; };
+		82ED00041F8F3E6C00ABEF5A /* JDLVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDLVideoViewController.h; sourceTree = "<group>"; };
+		82ED00051F8F3E6C00ABEF5A /* JDLVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDLVideoViewController.m; sourceTree = "<group>"; };
+		82ED000A1F8F4E3B00ABEF5A /* JDLVideoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDLVideoModel.h; sourceTree = "<group>"; };
+		82ED000B1F8F4E3B00ABEF5A /* JDLVideoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDLVideoModel.m; sourceTree = "<group>"; };
+		82ED000E1F8F530300ABEF5A /* JDLRefreshGifHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDLRefreshGifHeader.h; sourceTree = "<group>"; };
+		82ED000F1F8F530300ABEF5A /* JDLRefreshGifHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDLRefreshGifHeader.m; sourceTree = "<group>"; };
+		82ED00121F8F535600ABEF5A /* normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "normal@2x.png"; sourceTree = "<group>"; };
+		82ED00131F8F535600ABEF5A /* Pulling@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pulling@2x.png"; sourceTree = "<group>"; };
+		82ED00141F8F535600ABEF5A /* refreshing_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refreshing_01@2x.png"; sourceTree = "<group>"; };
+		82ED00151F8F535600ABEF5A /* refreshing_02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refreshing_02@2x.png"; sourceTree = "<group>"; };
+		82ED00161F8F535600ABEF5A /* refreshing_03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refreshing_03@2x.png"; sourceTree = "<group>"; };
+		82ED001C1F8F547F00ABEF5A /* JDLRefreshGifFooter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDLRefreshGifFooter.h; sourceTree = "<group>"; };
+		82ED001D1F8F547F00ABEF5A /* JDLRefreshGifFooter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDLRefreshGifFooter.m; sourceTree = "<group>"; };
+		82ED001F1F8F572400ABEF5A /* JDLVideoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDLVideoCell.h; sourceTree = "<group>"; };
+		82ED00201F8F572400ABEF5A /* JDLVideoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDLVideoCell.m; sourceTree = "<group>"; };
+		82ED00251F8F58CE00ABEF5A /* FastForwardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FastForwardView.h; sourceTree = "<group>"; };
+		82ED00261F8F58CE00ABEF5A /* FastForwardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FastForwardView.m; sourceTree = "<group>"; };
+		82ED00271F8F58CE00ABEF5A /* FastForwardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FastForwardView.xib; sourceTree = "<group>"; };
+		82ED00281F8F58CE00ABEF5A /* WMLightView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMLightView.h; sourceTree = "<group>"; };
+		82ED00291F8F58CE00ABEF5A /* WMLightView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMLightView.m; sourceTree = "<group>"; };
+		82ED002A1F8F58CE00ABEF5A /* WMPlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WMPlayer.bundle; sourceTree = "<group>"; };
+		82ED002B1F8F58CE00ABEF5A /* WMPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMPlayer.h; sourceTree = "<group>"; };
+		82ED002C1F8F58CE00ABEF5A /* WMPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMPlayer.m; sourceTree = "<group>"; };
+		82ED00311F8F59A800ABEF5A /* WMDragView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMDragView.h; sourceTree = "<group>"; };
+		82ED00321F8F59A800ABEF5A /* WMDragView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMDragView.m; sourceTree = "<group>"; };
+		82ED00371F8F630200ABEF5A /* GYHCircleLoadingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYHCircleLoadingView.h; sourceTree = "<group>"; };
+		82ED00381F8F630200ABEF5A /* GYHCircleLoadingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYHCircleLoadingView.m; sourceTree = "<group>"; };
+		82ED00391F8F630200ABEF5A /* GYHCircleProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYHCircleProgressView.h; sourceTree = "<group>"; };
+		82ED003A1F8F630200ABEF5A /* GYHCircleProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYHCircleProgressView.m; sourceTree = "<group>"; };
+		82ED003B1F8F630200ABEF5A /* GYHSectorProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYHSectorProgressView.h; sourceTree = "<group>"; };
+		82ED003C1F8F630200ABEF5A /* GYHSectorProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYHSectorProgressView.m; sourceTree = "<group>"; };
+		82ED003D1F8F632400ABEF5A /* GYPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYPlayer.m; sourceTree = "<group>"; };
+		82ED003E1F8F632400ABEF5A /* GYPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYPlayer.h; sourceTree = "<group>"; };
+		82ED00431F8F66E900ABEF5A /* JDLVideoFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDLVideoFrame.h; sourceTree = "<group>"; };
+		82ED00441F8F66E900ABEF5A /* JDLVideoFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDLVideoFrame.m; sourceTree = "<group>"; };
+		82ED00461F8F70BE00ABEF5A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		82ED00481F8F70CA00ABEF5A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		82EDFFE61F8F026500ABEF5A /* WMMenuItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMMenuItem.h; sourceTree = "<group>"; };
 		82EDFFE71F8F026500ABEF5A /* WMMenuItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMMenuItem.m; sourceTree = "<group>"; };
 		82EDFFE81F8F026500ABEF5A /* WMMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMMenuView.h; sourceTree = "<group>"; };
@@ -388,6 +451,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82ED00491F8F70CA00ABEF5A /* AudioToolbox.framework in Frameworks */,
+				82ED00471F8F70BE00ABEF5A /* AVFoundation.framework in Frameworks */,
 				EC868EB57815C516F6E063B6 /* libPods-ProjectFrame.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,18 +486,12 @@
 		8203A1C81F8E010A0075E123 /* News */ = {
 			isa = PBXGroup;
 			children = (
-				8203A1CB1F8E01330075E123 /* View */,
+				82ED00031F8F3E4800ABEF5A /* VideoNews */,
+				82EDFFFB1F8F123B00ABEF5A /* SocietyNews */,
+				82EDFFFF1F8F128C00ABEF5A /* OtherNews */,
 				8203A1CA1F8E01280075E123 /* Controller */,
-				8203A1C91F8E011D0075E123 /* Model */,
 			);
 			path = News;
-			sourceTree = "<group>";
-		};
-		8203A1C91F8E011D0075E123 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		8203A1CA1F8E01280075E123 /* Controller */ = {
@@ -440,19 +499,8 @@
 			children = (
 				82C8E41E1F7A03C100514591 /* JDLNewsViewController.h */,
 				82C8E41F1F7A03C100514591 /* JDLNewsViewController.m */,
-				8203A1CD1F8E0EB80075E123 /* JDLSocietyViewController.h */,
-				8203A1CE1F8E0EB80075E123 /* JDLSocietyViewController.m */,
-				8203A1D01F8E0EDF0075E123 /* JDLOtherNewsViewController.h */,
-				8203A1D11F8E0EDF0075E123 /* JDLOtherNewsViewController.m */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		8203A1CB1F8E01330075E123 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		820832C81F7C828800F9A5C4 /* Model */ = {
@@ -721,6 +769,8 @@
 		821CDFF61F79E5CC00CC0AED /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				82ED00221F8F58C000ABEF5A /* VideoPlayer */,
+				82ED000D1F8F52A400ABEF5A /* RefreshCustom */,
 				820882351F7F2FD4000B898B /* LoadingView */,
 				8208822E1F7E4724000B898B /* RequestTools */,
 				820832D71F7C962500F9A5C4 /* Factory */,
@@ -1084,6 +1134,126 @@
 			path = "UserGuideView(引导页)";
 			sourceTree = "<group>";
 		};
+		82ED00031F8F3E4800ABEF5A /* VideoNews */ = {
+			isa = PBXGroup;
+			children = (
+				82ED00091F8F4BCF00ABEF5A /* Controller */,
+				82ED00081F8F4BC800ABEF5A /* View */,
+				82ED00071F8F4BC400ABEF5A /* Model */,
+			);
+			path = VideoNews;
+			sourceTree = "<group>";
+		};
+		82ED00071F8F4BC400ABEF5A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				82ED000A1F8F4E3B00ABEF5A /* JDLVideoModel.h */,
+				82ED000B1F8F4E3B00ABEF5A /* JDLVideoModel.m */,
+				82ED00431F8F66E900ABEF5A /* JDLVideoFrame.h */,
+				82ED00441F8F66E900ABEF5A /* JDLVideoFrame.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		82ED00081F8F4BC800ABEF5A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				82ED001F1F8F572400ABEF5A /* JDLVideoCell.h */,
+				82ED00201F8F572400ABEF5A /* JDLVideoCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		82ED00091F8F4BCF00ABEF5A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				82ED00041F8F3E6C00ABEF5A /* JDLVideoViewController.h */,
+				82ED00051F8F3E6C00ABEF5A /* JDLVideoViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		82ED000D1F8F52A400ABEF5A /* RefreshCustom */ = {
+			isa = PBXGroup;
+			children = (
+				82ED00111F8F535600ABEF5A /* GifImage */,
+				82ED000E1F8F530300ABEF5A /* JDLRefreshGifHeader.h */,
+				82ED000F1F8F530300ABEF5A /* JDLRefreshGifHeader.m */,
+				82ED001C1F8F547F00ABEF5A /* JDLRefreshGifFooter.h */,
+				82ED001D1F8F547F00ABEF5A /* JDLRefreshGifFooter.m */,
+			);
+			path = RefreshCustom;
+			sourceTree = "<group>";
+		};
+		82ED00111F8F535600ABEF5A /* GifImage */ = {
+			isa = PBXGroup;
+			children = (
+				82ED00121F8F535600ABEF5A /* normal@2x.png */,
+				82ED00131F8F535600ABEF5A /* Pulling@2x.png */,
+				82ED00141F8F535600ABEF5A /* refreshing_01@2x.png */,
+				82ED00151F8F535600ABEF5A /* refreshing_02@2x.png */,
+				82ED00161F8F535600ABEF5A /* refreshing_03@2x.png */,
+			);
+			path = GifImage;
+			sourceTree = "<group>";
+		};
+		82ED00221F8F58C000ABEF5A /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				82ED00351F8F62CD00ABEF5A /* GHYPlayer */,
+				82ED00231F8F58CE00ABEF5A /* WMPlayer */,
+			);
+			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		82ED00231F8F58CE00ABEF5A /* WMPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				82ED00241F8F58CE00ABEF5A /* View */,
+				82ED002A1F8F58CE00ABEF5A /* WMPlayer.bundle */,
+				82ED002B1F8F58CE00ABEF5A /* WMPlayer.h */,
+				82ED002C1F8F58CE00ABEF5A /* WMPlayer.m */,
+				82ED00311F8F59A800ABEF5A /* WMDragView.h */,
+				82ED00321F8F59A800ABEF5A /* WMDragView.m */,
+			);
+			path = WMPlayer;
+			sourceTree = "<group>";
+		};
+		82ED00241F8F58CE00ABEF5A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				82ED00251F8F58CE00ABEF5A /* FastForwardView.h */,
+				82ED00261F8F58CE00ABEF5A /* FastForwardView.m */,
+				82ED00271F8F58CE00ABEF5A /* FastForwardView.xib */,
+				82ED00281F8F58CE00ABEF5A /* WMLightView.h */,
+				82ED00291F8F58CE00ABEF5A /* WMLightView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		82ED00351F8F62CD00ABEF5A /* GHYPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				82ED003E1F8F632400ABEF5A /* GYPlayer.h */,
+				82ED003D1F8F632400ABEF5A /* GYPlayer.m */,
+				82ED00361F8F630200ABEF5A /* GYHPhotoLoadingView */,
+			);
+			path = GHYPlayer;
+			sourceTree = "<group>";
+		};
+		82ED00361F8F630200ABEF5A /* GYHPhotoLoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				82ED00371F8F630200ABEF5A /* GYHCircleLoadingView.h */,
+				82ED00381F8F630200ABEF5A /* GYHCircleLoadingView.m */,
+				82ED00391F8F630200ABEF5A /* GYHCircleProgressView.h */,
+				82ED003A1F8F630200ABEF5A /* GYHCircleProgressView.m */,
+				82ED003B1F8F630200ABEF5A /* GYHSectorProgressView.h */,
+				82ED003C1F8F630200ABEF5A /* GYHSectorProgressView.m */,
+			);
+			path = GYHPhotoLoadingView;
+			sourceTree = "<group>";
+		};
 		82EDFFE41F8F026500ABEF5A /* WMPageController */ = {
 			isa = PBXGroup;
 			children = (
@@ -1109,9 +1279,55 @@
 			path = WMMenuView;
 			sourceTree = "<group>";
 		};
+		82EDFFFB1F8F123B00ABEF5A /* SocietyNews */ = {
+			isa = PBXGroup;
+			children = (
+				82EDFFFE1F8F126C00ABEF5A /* View */,
+				82EDFFFD1F8F126800ABEF5A /* Model */,
+				82EDFFFC1F8F126000ABEF5A /* Controller */,
+			);
+			path = SocietyNews;
+			sourceTree = "<group>";
+		};
+		82EDFFFC1F8F126000ABEF5A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8203A1CD1F8E0EB80075E123 /* JDLSocietyViewController.h */,
+				8203A1CE1F8E0EB80075E123 /* JDLSocietyViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		82EDFFFD1F8F126800ABEF5A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				82ED00001F8F35B000ABEF5A /* JDLSocietyNewsModel.h */,
+				82ED00011F8F35B000ABEF5A /* JDLSocietyNewsModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		82EDFFFE1F8F126C00ABEF5A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		82EDFFFF1F8F128C00ABEF5A /* OtherNews */ = {
+			isa = PBXGroup;
+			children = (
+				8203A1D01F8E0EDF0075E123 /* JDLOtherNewsViewController.h */,
+				8203A1D11F8E0EDF0075E123 /* JDLOtherNewsViewController.m */,
+			);
+			path = OtherNews;
+			sourceTree = "<group>";
+		};
 		A8B3B2FB8F3A9B37B685F315 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				82ED00481F8F70CA00ABEF5A /* AudioToolbox.framework */,
+				82ED00461F8F70BE00ABEF5A /* AVFoundation.framework */,
 				98E605A65794CA82A91A360B /* libPods-ProjectFrame.a */,
 			);
 			name = Frameworks;
@@ -1228,9 +1444,16 @@
 			files = (
 				821CDFD01F79E37200CC0AED /* LaunchScreen.storyboard in Resources */,
 				82C8E3FC1F7A01BA00514591 /* MBProgressHUD.bundle in Resources */,
+				82ED00341F8F5DEB00ABEF5A /* FastForwardView.xib in Resources */,
 				821CDFCD1F79E37200CC0AED /* Assets.xcassets in Resources */,
+				82ED00181F8F536700ABEF5A /* Pulling@2x.png in Resources */,
+				82ED00171F8F536400ABEF5A /* normal@2x.png in Resources */,
 				82C8E47A1F7A4FBB00514591 /* MJRefresh.bundle in Resources */,
+				82ED001B1F8F536D00ABEF5A /* refreshing_03@2x.png in Resources */,
+				82ED00191F8F536900ABEF5A /* refreshing_01@2x.png in Resources */,
+				82ED002F1F8F58DD00ABEF5A /* WMPlayer.bundle in Resources */,
 				821CDFC81F79E37200CC0AED /* Main.storyboard in Resources */,
+				82ED001A1F8F536B00ABEF5A /* refreshing_02@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1315,11 +1538,13 @@
 				820882311F7E4753000B898B /* JDLRequestTools.m in Sources */,
 				82EDFFF41F8F027D00ABEF5A /* WMPageController.m in Sources */,
 				820882271F7E2A80000B898B /* TAAnimatedDotView.m in Sources */,
+				82ED00401F8F632900ABEF5A /* GYHCircleLoadingView.m in Sources */,
 				82C8E41D1F7A03B700514591 /* Test3ViewController.m in Sources */,
 				82C8E40B1F7A021C00514591 /* SDWebImageManager.m in Sources */,
 				82C8E3F51F7A014F00514591 /* MBProgressHUD+Show.m in Sources */,
 				82C8E49B1F7B397F00514591 /* HeaderModel.m in Sources */,
 				820832FB1F7C9CA800F9A5C4 /* JDLHomeNavigationView.m in Sources */,
+				82ED00421F8F633000ABEF5A /* GYHSectorProgressView.m in Sources */,
 				820882261F7E2A7E000B898B /* TAAbstractDotView.m in Sources */,
 				82C8E4821F7A4FE200514591 /* MJRefreshAutoStateFooter.m in Sources */,
 				82C8E4891F7A500200514591 /* MJRefreshAutoFooter.m in Sources */,
@@ -1338,9 +1563,12 @@
 				820832F41F7C96FB00F9A5C4 /* BaseTranslucenView.m in Sources */,
 				820832F21F7C96F600F9A5C4 /* BaseTextField.m in Sources */,
 				821CE04A1F79EA2F00CC0AED /* BaseViewController.m in Sources */,
+				82ED00021F8F35B000ABEF5A /* JDLSocietyNewsModel.m in Sources */,
 				82C8E4121F7A022F00514591 /* UIImageView+WebCache.m in Sources */,
 				82EDFFF21F8F027700ABEF5A /* WMProgressView.m in Sources */,
 				820832F81F7C984100F9A5C4 /* UILabel+JLAdd.m in Sources */,
+				82ED002D1F8F58D600ABEF5A /* FastForwardView.m in Sources */,
+				82ED00061F8F3E6C00ABEF5A /* JDLVideoViewController.m in Sources */,
 				820832F11F7C96F300F9A5C4 /* BaseTableViewCell.m in Sources */,
 				820882381F7F3005000B898B /* JDLLoadingView.m in Sources */,
 				8203A1D21F8E0EDF0075E123 /* JDLOtherNewsViewController.m in Sources */,
@@ -1358,6 +1586,7 @@
 				82C8E4061F7A020C00514591 /* SDImageCache.m in Sources */,
 				8203A1CF1F8E0EB80075E123 /* JDLSocietyViewController.m in Sources */,
 				82C8E47E1F7A4FC900514591 /* UIScrollView+MJRefresh.m in Sources */,
+				82ED000C1F8F4E3B00ABEF5A /* JDLVideoModel.m in Sources */,
 				82C8E4AB1F7B52B100514591 /* JDLShowFPS.m in Sources */,
 				82C8E4881F7A4FFA00514591 /* MJRefreshStateHeader.m in Sources */,
 				82C8E40F1F7A022900514591 /* UIImage+MultiFormat.m in Sources */,
@@ -1367,11 +1596,15 @@
 				82C8E4421F7A342100514591 /* AppDelegate+AppService.m in Sources */,
 				820882141F7E1DC9000B898B /* JDLHomeScrollviewCell.m in Sources */,
 				820832CB1F7C82A700F9A5C4 /* JDLBaseService.m in Sources */,
+				82ED001E1F8F547F00ABEF5A /* JDLRefreshGifFooter.m in Sources */,
 				82C8E4A71F7B47CC00514591 /* AdPageView.m in Sources */,
 				820882291F7E2A86000B898B /* TAPageControl.m in Sources */,
 				82C8E4981F7B394D00514591 /* AESCipher.m in Sources */,
 				821CE0431F79E87400CC0AED /* MSUtil.m in Sources */,
+				82ED00211F8F572400ABEF5A /* JDLVideoCell.m in Sources */,
 				82C8E3FB1F7A018D00514591 /* UINavigationBar+alpha.m in Sources */,
+				82ED002E1F8F58D900ABEF5A /* WMLightView.m in Sources */,
+				82ED00331F8F59A800ABEF5A /* WMDragView.m in Sources */,
 				8208822A1F7E2A88000B898B /* UIView+SDExtension.m in Sources */,
 				82C8E47F1F7A4FCD00514591 /* UIView+MJExtension.m in Sources */,
 				82C8E48A1F7A500400514591 /* MJRefreshBackFooter.m in Sources */,
@@ -1379,6 +1612,7 @@
 				82C8E4051F7A020900514591 /* NSData+ImageContentType.m in Sources */,
 				82C8E4931F7B38C200514591 /* PPNetworkCache.m in Sources */,
 				82C8E48D1F7A500E00514591 /* MJRefreshHeader.m in Sources */,
+				82ED00411F8F632C00ABEF5A /* GYHCircleProgressView.m in Sources */,
 				82C8E41A1F7A03A500514591 /* Test4ViewController.m in Sources */,
 				821CDFD31F79E37200CC0AED /* main.m in Sources */,
 				8208823F1F7F345C000B898B /* JDLUserManagerCenetr.m in Sources */,
@@ -1386,6 +1620,7 @@
 				82C8E4391F7A10A600514591 /* UIControl+CYLTabBarControllerExtention.m in Sources */,
 				82C8E43F1F7A186300514591 /* JDLTabbarPlusButton.m in Sources */,
 				820882481F7F79B5000B898B /* UICollectionViewCell+updateModel.m in Sources */,
+				82ED003F1F8F632700ABEF5A /* GYPlayer.m in Sources */,
 				82EDFFF01F8F027200ABEF5A /* WMMenuItem.m in Sources */,
 				82C8E43A1F7A10A900514591 /* UITabBarItem+CYLTabBarControllerExtention.m in Sources */,
 				82C8E4831F7A4FEA00514591 /* MJRefreshBackGifFooter.m in Sources */,
@@ -1394,6 +1629,7 @@
 				82C8E43B1F7A10AC00514591 /* UIView+CYLTabBarControllerExtention.m in Sources */,
 				820882341F7F280A000B898B /* JDLJSONResponseSerializer.m in Sources */,
 				820832EF1F7C96EF00F9A5C4 /* BaseLabel.m in Sources */,
+				82ED00301F8F58DF00ABEF5A /* WMPlayer.m in Sources */,
 				8208822D1F7E4484000B898B /* JDLHomeViewModel.m in Sources */,
 				82C8E4231F7A03CA00514591 /* JDLHomeViewController.m in Sources */,
 				82C8E4A31F7B43EA00514591 /* AppManager.m in Sources */,
@@ -1401,9 +1637,11 @@
 				821CDFCB1F79E37200CC0AED /* ProjectFrame.xcdatamodeld in Sources */,
 				821CE0471F79EA1600CC0AED /* BaseNavigationController.m in Sources */,
 				82C8E4261F7A043600514591 /* JDLTabbarController.m in Sources */,
+				82ED00451F8F66E900ABEF5A /* JDLVideoFrame.m in Sources */,
 				82C8E4811F7A4FDF00514591 /* MJRefreshAutoNormalFooter.m in Sources */,
 				82C8E4AF1F7B58DA00514591 /* UserGuideViewController.m in Sources */,
 				82C8E43C1F7A10B000514591 /* UIViewController+CYLTabBarControllerExtention.m in Sources */,
+				82ED00101F8F530300ABEF5A /* JDLRefreshGifHeader.m in Sources */,
 				82C8E40C1F7A022100514591 /* SDWebImagePrefetcher.m in Sources */,
 				82C8E4201F7A03C100514591 /* JDLNewsViewController.m in Sources */,
 				82C8E4041F7A020600514591 /* MKAnnotationView+WebCache.m in Sources */,

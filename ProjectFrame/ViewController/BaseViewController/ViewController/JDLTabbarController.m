@@ -15,7 +15,7 @@
 
 #import "BaseNavigationController.h"
 
-static CGFloat const CYLTabBarControllerHeight = 40.f;
+static CGFloat const CYLTabBarControllerHeight = 49.f;
 
 @interface JDLTabbarController ()
 
@@ -136,16 +136,9 @@ static CGFloat const CYLTabBarControllerHeight = 40.f;
     
     // set the bar shadow image
     // This shadow image attribute is ignored if the tab bar does not also have a custom background image.So at least set somthing.
-    [[UITabBar appearance] setBackgroundImage:[[UIImage alloc] init]];
-    [[UITabBar appearance] setBackgroundColor:KWhiteColor];
+    [[UITabBar appearance] setBackgroundImage:[[UIImage alloc] init]];   // 设置背景图片
+    [[UITabBar appearance] setBackgroundColor:KClearColor];    // 设置tabbar背景颜色
     [[UITabBar appearance] setShadowImage:[UIImage imageNamed:@"tapbar_top_line"]];
-    
-    // set the bar background image
-    // 设置背景图片
-         UITabBar *tabBarAppearance = [UITabBar appearance];
-//         [tabBarAppearance setBackgroundImage:[UIImage imageNamed:@"tab_bar"]];
-    // 设置tabbar背景颜色
-    [tabBarAppearance setBackgroundColor:KClearColor];
     
     // remove the bar system shadow image
     // 去除 TabBar 自带的顶部阴影  去掉顶部黑线

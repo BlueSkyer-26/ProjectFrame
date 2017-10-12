@@ -9,6 +9,7 @@
 #import "JDLNewsViewController.h"
 
 #import "JDLSocietyViewController.h"
+#import "JDLVideoViewController.h"
 #import "JDLOtherNewsViewController.h"
 
 @interface JDLNewsViewController ()
@@ -20,7 +21,11 @@
 - (instancetype)init {
     if (self = [super init]) {
         
-        self.viewFrame = CGRectMake(0, 20, KScreenWidth, KScreenHeight -65);
+        //title segment url  http://qt.qq.com/lua/lol_news/channel?plat=ios&version=9751
+        
+        
+        
+        self.viewFrame = CGRectMake(0, 20, KScreenWidth, KScreenHeight -69);
         
         self.menuBGColor =KClearColor;
         
@@ -56,9 +61,9 @@
 - (NSInteger)numbersOfChildControllersInPageController:(WMPageController *)pageController{
     NSArray *namearray = [NSArray array];
     
-    namearray = @[@"社会",@"国内",@"国际",@"娱乐",@"体育",@"科技",@"奇闻趣事",@"生活健康"];
+    namearray = @[@"社会",@"视频",@"国内",@"国际",@"娱乐",@"体育",@"科技",@"奇闻趣事",@"生活健康"];
     NSArray *contentarray = [NSArray array];
-    contentarray = @[@"shehui",@"guonei",@"world",@"huabian",@"tiyu",@"keji",@"qiwen",@"health"];
+    contentarray = @[@"shehui",@"shipin",@"guonei",@"world",@"huabian",@"tiyu",@"keji",@"qiwen",@"health"];
     
     _contentArray = [NSArray array];
     _contentArray = contentarray;
@@ -78,6 +83,13 @@
         {
             JDLSocietyViewController *DetailVC = [[JDLSocietyViewController alloc]init];
             return DetailVC;
+        }
+            break;
+            
+        case 1:
+        {
+            JDLVideoViewController *VideoVC = [[JDLVideoViewController alloc]init];
+            return VideoVC;
         }
             break;
             
