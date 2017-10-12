@@ -117,11 +117,11 @@
 		82C8E4A71F7B47CC00514591 /* AdPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E4A61F7B47CC00514591 /* AdPageView.m */; };
 		82C8E4AB1F7B52B100514591 /* JDLShowFPS.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E4AA1F7B52B100514591 /* JDLShowFPS.m */; };
 		82C8E4AF1F7B58DA00514591 /* UserGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C8E4AE1F7B58C800514591 /* UserGuideViewController.m */; };
-		82EDFFDF1F8F018100ABEF5A /* WMMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EDFFD61F8F016F00ABEF5A /* WMMenuItem.m */; };
-		82EDFFE01F8F018300ABEF5A /* WMMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EDFFD81F8F016F00ABEF5A /* WMMenuView.m */; };
-		82EDFFE11F8F018500ABEF5A /* WMProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EDFFDA1F8F016F00ABEF5A /* WMProgressView.m */; };
-		82EDFFE21F8F018800ABEF5A /* WMScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EDFFDC1F8F016F00ABEF5A /* WMScrollView.m */; };
-		82EDFFE31F8F018A00ABEF5A /* WMPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EDFFDE1F8F016F00ABEF5A /* WMPageController.m */; };
+		82EDFFF01F8F027200ABEF5A /* WMMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EDFFE71F8F026500ABEF5A /* WMMenuItem.m */; };
+		82EDFFF11F8F027500ABEF5A /* WMMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EDFFE91F8F026500ABEF5A /* WMMenuView.m */; };
+		82EDFFF21F8F027700ABEF5A /* WMProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EDFFEB1F8F026500ABEF5A /* WMProgressView.m */; };
+		82EDFFF31F8F027B00ABEF5A /* WMScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EDFFED1F8F026500ABEF5A /* WMScrollView.m */; };
+		82EDFFF41F8F027D00ABEF5A /* WMPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EDFFEF1F8F026500ABEF5A /* WMPageController.m */; };
 		EC868EB57815C516F6E063B6 /* libPods-ProjectFrame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E605A65794CA82A91A360B /* libPods-ProjectFrame.a */; };
 /* End PBXBuildFile section */
 
@@ -369,16 +369,16 @@
 		82C8E4AA1F7B52B100514591 /* JDLShowFPS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDLShowFPS.m; sourceTree = "<group>"; };
 		82C8E4AD1F7B58C800514591 /* UserGuideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserGuideViewController.h; sourceTree = "<group>"; };
 		82C8E4AE1F7B58C800514591 /* UserGuideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserGuideViewController.m; sourceTree = "<group>"; };
-		82EDFFD51F8F016F00ABEF5A /* WMMenuItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMMenuItem.h; sourceTree = "<group>"; };
-		82EDFFD61F8F016F00ABEF5A /* WMMenuItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMMenuItem.m; sourceTree = "<group>"; };
-		82EDFFD71F8F016F00ABEF5A /* WMMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMMenuView.h; sourceTree = "<group>"; };
-		82EDFFD81F8F016F00ABEF5A /* WMMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMMenuView.m; sourceTree = "<group>"; };
-		82EDFFD91F8F016F00ABEF5A /* WMProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMProgressView.h; sourceTree = "<group>"; };
-		82EDFFDA1F8F016F00ABEF5A /* WMProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMProgressView.m; sourceTree = "<group>"; };
-		82EDFFDB1F8F016F00ABEF5A /* WMScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMScrollView.h; sourceTree = "<group>"; };
-		82EDFFDC1F8F016F00ABEF5A /* WMScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMScrollView.m; sourceTree = "<group>"; };
-		82EDFFDD1F8F016F00ABEF5A /* WMPageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMPageController.h; sourceTree = "<group>"; };
-		82EDFFDE1F8F016F00ABEF5A /* WMPageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMPageController.m; sourceTree = "<group>"; };
+		82EDFFE61F8F026500ABEF5A /* WMMenuItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMMenuItem.h; sourceTree = "<group>"; };
+		82EDFFE71F8F026500ABEF5A /* WMMenuItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMMenuItem.m; sourceTree = "<group>"; };
+		82EDFFE81F8F026500ABEF5A /* WMMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMMenuView.h; sourceTree = "<group>"; };
+		82EDFFE91F8F026500ABEF5A /* WMMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMMenuView.m; sourceTree = "<group>"; };
+		82EDFFEA1F8F026500ABEF5A /* WMProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMProgressView.h; sourceTree = "<group>"; };
+		82EDFFEB1F8F026500ABEF5A /* WMProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMProgressView.m; sourceTree = "<group>"; };
+		82EDFFEC1F8F026500ABEF5A /* WMScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMScrollView.h; sourceTree = "<group>"; };
+		82EDFFED1F8F026500ABEF5A /* WMScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMScrollView.m; sourceTree = "<group>"; };
+		82EDFFEE1F8F026500ABEF5A /* WMPageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMPageController.h; sourceTree = "<group>"; };
+		82EDFFEF1F8F026500ABEF5A /* WMPageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMPageController.m; sourceTree = "<group>"; };
 		98E605A65794CA82A91A360B /* libPods-ProjectFrame.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProjectFrame.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1103489F41B0264E644B0D3 /* Pods-ProjectFrame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectFrame.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectFrame/Pods-ProjectFrame.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -707,7 +707,7 @@
 		821CDFF51F79E5AF00CC0AED /* ThirdLib */ = {
 			isa = PBXGroup;
 			children = (
-				82EDFFD31F8F016F00ABEF5A /* WMPageController */,
+				82EDFFE41F8F026500ABEF5A /* WMPageController */,
 				820882151F7E2A72000B898B /* SDCycleScrollView */,
 				82C8E44B1F7A4F8000514591 /* MJRefresh */,
 				821CE0371F79E81600CC0AED /* CYLTabBarController */,
@@ -1084,28 +1084,27 @@
 			path = "UserGuideView(引导页)";
 			sourceTree = "<group>";
 		};
-		82EDFFD31F8F016F00ABEF5A /* WMPageController */ = {
+		82EDFFE41F8F026500ABEF5A /* WMPageController */ = {
 			isa = PBXGroup;
 			children = (
-				82EDFFD41F8F016F00ABEF5A /* WMMenuView */,
-				82EDFFDD1F8F016F00ABEF5A /* WMPageController.h */,
-				82EDFFDE1F8F016F00ABEF5A /* WMPageController.m */,
+				82EDFFE51F8F026500ABEF5A /* WMMenuView */,
+				82EDFFEE1F8F026500ABEF5A /* WMPageController.h */,
+				82EDFFEF1F8F026500ABEF5A /* WMPageController.m */,
 			);
-			name = WMPageController;
-			path = ../../../../WMPageController;
+			path = WMPageController;
 			sourceTree = "<group>";
 		};
-		82EDFFD41F8F016F00ABEF5A /* WMMenuView */ = {
+		82EDFFE51F8F026500ABEF5A /* WMMenuView */ = {
 			isa = PBXGroup;
 			children = (
-				82EDFFD51F8F016F00ABEF5A /* WMMenuItem.h */,
-				82EDFFD61F8F016F00ABEF5A /* WMMenuItem.m */,
-				82EDFFD71F8F016F00ABEF5A /* WMMenuView.h */,
-				82EDFFD81F8F016F00ABEF5A /* WMMenuView.m */,
-				82EDFFD91F8F016F00ABEF5A /* WMProgressView.h */,
-				82EDFFDA1F8F016F00ABEF5A /* WMProgressView.m */,
-				82EDFFDB1F8F016F00ABEF5A /* WMScrollView.h */,
-				82EDFFDC1F8F016F00ABEF5A /* WMScrollView.m */,
+				82EDFFE61F8F026500ABEF5A /* WMMenuItem.h */,
+				82EDFFE71F8F026500ABEF5A /* WMMenuItem.m */,
+				82EDFFE81F8F026500ABEF5A /* WMMenuView.h */,
+				82EDFFE91F8F026500ABEF5A /* WMMenuView.m */,
+				82EDFFEA1F8F026500ABEF5A /* WMProgressView.h */,
+				82EDFFEB1F8F026500ABEF5A /* WMProgressView.m */,
+				82EDFFEC1F8F026500ABEF5A /* WMScrollView.h */,
+				82EDFFED1F8F026500ABEF5A /* WMScrollView.m */,
 			);
 			path = WMMenuView;
 			sourceTree = "<group>";
@@ -1314,7 +1313,7 @@
 				82C8E4801F7A4FDC00514591 /* MJRefreshAutoGifFooter.m in Sources */,
 				820882251F7E2A7B000B898B /* SDCycleScrollView.m in Sources */,
 				820882311F7E4753000B898B /* JDLRequestTools.m in Sources */,
-				82EDFFE31F8F018A00ABEF5A /* WMPageController.m in Sources */,
+				82EDFFF41F8F027D00ABEF5A /* WMPageController.m in Sources */,
 				820882271F7E2A80000B898B /* TAAnimatedDotView.m in Sources */,
 				82C8E41D1F7A03B700514591 /* Test3ViewController.m in Sources */,
 				82C8E40B1F7A021C00514591 /* SDWebImageManager.m in Sources */,
@@ -1340,12 +1339,12 @@
 				820832F21F7C96F600F9A5C4 /* BaseTextField.m in Sources */,
 				821CE04A1F79EA2F00CC0AED /* BaseViewController.m in Sources */,
 				82C8E4121F7A022F00514591 /* UIImageView+WebCache.m in Sources */,
-				82EDFFE11F8F018500ABEF5A /* WMProgressView.m in Sources */,
+				82EDFFF21F8F027700ABEF5A /* WMProgressView.m in Sources */,
 				820832F81F7C984100F9A5C4 /* UILabel+JLAdd.m in Sources */,
 				820832F11F7C96F300F9A5C4 /* BaseTableViewCell.m in Sources */,
 				820882381F7F3005000B898B /* JDLLoadingView.m in Sources */,
 				8203A1D21F8E0EDF0075E123 /* JDLOtherNewsViewController.m in Sources */,
-				82EDFFE21F8F018800ABEF5A /* WMScrollView.m in Sources */,
+				82EDFFF31F8F027B00ABEF5A /* WMScrollView.m in Sources */,
 				82C8E47C1F7A4FC300514591 /* NSBundle+MJRefresh.m in Sources */,
 				82C8E4101F7A022B00514591 /* UIImage+WebP.m in Sources */,
 				820832EE1F7C96ED00F9A5C4 /* BaseImageView.m in Sources */,
@@ -1353,7 +1352,7 @@
 				820832ED1F7C96EA00F9A5C4 /* BaseButton.m in Sources */,
 				82C8E4861F7A4FF500514591 /* MJRefreshGifHeader.m in Sources */,
 				820832DA1F7C962F00F9A5C4 /* JDLFactory.m in Sources */,
-				82EDFFE01F8F018300ABEF5A /* WMMenuView.m in Sources */,
+				82EDFFF11F8F027500ABEF5A /* WMMenuView.m in Sources */,
 				820832D41F7C84A400F9A5C4 /* JDLHomeUIService.m in Sources */,
 				82C8E4851F7A4FEE00514591 /* MJRefreshBackStateFooter.m in Sources */,
 				82C8E4061F7A020C00514591 /* SDImageCache.m in Sources */,
@@ -1387,7 +1386,7 @@
 				82C8E4391F7A10A600514591 /* UIControl+CYLTabBarControllerExtention.m in Sources */,
 				82C8E43F1F7A186300514591 /* JDLTabbarPlusButton.m in Sources */,
 				820882481F7F79B5000B898B /* UICollectionViewCell+updateModel.m in Sources */,
-				82EDFFDF1F8F018100ABEF5A /* WMMenuItem.m in Sources */,
+				82EDFFF01F8F027200ABEF5A /* WMMenuItem.m in Sources */,
 				82C8E43A1F7A10A900514591 /* UITabBarItem+CYLTabBarControllerExtention.m in Sources */,
 				82C8E4831F7A4FEA00514591 /* MJRefreshBackGifFooter.m in Sources */,
 				82C8E4081F7A021200514591 /* SDWebImageDecoder.m in Sources */,
