@@ -15,7 +15,7 @@
 -(void)setVideodata:(JDLVideoModel *)videodata
 {
     _videodata = videodata;
-    
+    WMLog(@"===%@",videodata.title);
     //图片
     CGFloat coverX = 0;
     CGFloat coverY = 0;

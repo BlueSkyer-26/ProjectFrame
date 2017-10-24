@@ -32,8 +32,8 @@
         self.lastUpdatedTimeLabel.textColor = [UIColor grayColor];
         
         //隐藏文字
-        //        self.stateLabel.hidden = YES;
-        //        self.lastUpdatedTimeLabel.hidden = YES;
+//                self.stateLabel.hidden = YES;
+                self.lastUpdatedTimeLabel.hidden = YES;
         
         //设置动画
         NSMutableArray *headerImages = [NSMutableArray array];

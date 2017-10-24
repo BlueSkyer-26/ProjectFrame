@@ -9,7 +9,7 @@
 #import "JDLTabbarPlusButton.h"
 #import "CYLTabBarController.h"
 
-#import "Test4ViewController.h"
+#import "Test5ViewController.h"
 
 @interface JDLTabbarPlusButton ()<UIActionSheetDelegate> {
     CGFloat _buttonImageHeight;
@@ -137,8 +137,8 @@
 #pragma mark - CYLPlusButtonSubclassing
 
 + (UIViewController *)plusChildViewController {
-    Test4ViewController *plusChildViewController = [[Test4ViewController alloc] init];
-    plusChildViewController.view.backgroundColor = KYellowColor;
+    Test5ViewController *plusChildViewController = [[Test5ViewController alloc] init];
+//    plusChildViewController.view.backgroundColor = KYellowColor;
     plusChildViewController.navigationItem.title = @"啦啦啦";
     BaseNavigationController *plusChildNavigationController = [[BaseNavigationController alloc] initWithRootViewController:plusChildViewController];
     return plusChildNavigationController;

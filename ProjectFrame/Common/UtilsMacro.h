@@ -29,8 +29,8 @@
 
 ///适配相关
 //获取屏幕宽高
-#define KScreenWidth ([[UIScreen mainScreen] bounds].size.width)
-#define KScreenHeight [[UIScreen mainScreen] bounds].size.height
+#define KScreenWidth   [[UIScreen mainScreen] bounds].size.width
+#define KScreenHeight  [[UIScreen mainScreen] bounds].size.height
 #define kScreen_Bounds [UIScreen mainScreen].bounds
 
 #define KSCALE_WIDTH [UIScreen mainScreen].bounds.size.width/375
@@ -86,7 +86,15 @@
 
 #define kSafeString(__X__)        [__X__ isKindOfClass:[NSNull class]] ? @"" : [NSString stringWithFormat:@"%@", (__X__)]
 
-
+/** 获取坐标 */
+#define KLeft(Rect) CGRectGetMinX(Rect)
+#define KTop(Rect) CGRectGetMinY(Rect)
+#define KRight(Rect) CGRectGetMaxX(Rect)
+#define KBottom(Rect) CGRectGetMaxY(Rect)
+#define KWidth(Rect) CGRectGetWidth(Rect)
+#define KHeight(Rect) CGRectGetHeight(Rect)
+#define KCenterY(Rect) CGRectGetMidY(Rect)
+#define KCenterX(Rect) CGRectGetMidX(Rect)
 
 /** 弱引用 */
 #define WEAKSELF __weak typeof(self) weakSelf = self
@@ -107,7 +115,12 @@
 #endif
 
 
-
+//#ifdef DEBUG
+//#define NSLog(format, ...) printf("class: <%p %s:(%d) > method: %s \n%s\n", self, [[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, __PRETTY_FUNCTION__, [[NSString stringWithFormat:(format), ##__VA_ARGS__] UTF8String] )
+////#define NSLog(...) printf("%f %s\n",[[NSDate date]timeIntervalSince1970],[[NSString stringWithFormat:__VA_ARGS__]UTF8String]);
+//#else
+//#define NSLog(format, ...)
+//#endif
 
 
 

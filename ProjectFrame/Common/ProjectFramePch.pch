@@ -59,6 +59,7 @@
 #import "JDLLoadingView.h"
 #import "JDLRequestTools.h"
 #import "JDLUserManagerCenetr.h"
+#import "JDLTimeUpdate.h"
 
 //视频
 #import "WMDragView.h"
@@ -72,6 +73,8 @@
 #import "UIBarButtonItem+JDLAddition.h"
 #import "UINavigationBar+alpha.h"
 #import "UICollectionViewCell+updateModel.h"
+#import "NSDate+calender.h"
+
 
 //第三方
 #import "MBProgressHUD.h"
@@ -84,6 +87,7 @@
 #import <ReactiveCocoa.h>
 #import <AFNetworking.h>
 #import <SVProgressHUD.h>
+#import "UITableView+FDTemplateLayoutCell.h"
 
 
 

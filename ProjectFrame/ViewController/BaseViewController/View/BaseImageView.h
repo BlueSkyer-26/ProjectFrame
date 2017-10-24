@@ -10,4 +10,6 @@
 
 @interface BaseImageView : UIImageView
 
+-(void)imageViewWithCornerRadius:(NSInteger )cornerRadius;
+
 @end

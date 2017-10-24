@@ -25,9 +25,11 @@
         
         
         
-        self.viewFrame = CGRectMake(0, 20, KScreenWidth, KScreenHeight -69);
+        self.viewFrame = CGRectMake(0, 64, KScreenWidth, KScreenHeight -69);
         
-        self.menuBGColor =KClearColor;
+//        self.menuView.frame = CGRectMake(20, 100, KScreenWidth -40, 30);
+        
+        self.menuBGColor =KRedColor;
         
         self.titleSizeNormal = 16;
         self.titleSizeSelected = 18;
@@ -118,7 +120,7 @@
 
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
-    [self.navigationController setNavigationBarHidden:YES animated:YES];
+    [self.navigationController setNavigationBarHidden:NO animated:YES];
     
     
 }

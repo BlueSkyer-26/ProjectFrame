@@ -14,7 +14,7 @@
 #pragma mark -  间距区
 
 //默认间距
-#define KNormalSpace 12.0f
+#define KNormalSpace 10.0f
 
 #pragma mark -  颜色区
 //主题色 导航栏颜色

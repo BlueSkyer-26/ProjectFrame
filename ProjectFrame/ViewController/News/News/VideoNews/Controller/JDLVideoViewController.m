@@ -89,15 +89,15 @@
     JDLVideoModel *videodata = videoframe.videodata;
     
 //    if (self.dragPlayerView) {
-//        [self.dragPlayerView removePlayer];
+//        [self.dragPlayerView resetWMPlayer];
 //        self.dragPlayerView = nil;
 //    }
-//    CGFloat originY = videoframe.cellH*indexPath.row+videoframe.coverF.origin.y+SCREEN_WIDTH * 0.25;
+//    CGFloat originY = videoframe.cellH*indexPath.row;
 //    self.currentOriginY = originY;
-//    self.dragPlayerView = [[WMPlayer alloc] initWithFrame:CGRectMake(0, originY, kScreenWidth, kScreenWidth*(3.0/4.0))];
+//    self.dragPlayerView = [[WMPlayer alloc] initWithFrame:CGRectMake(0, originY, kScreenWidth, kScreenWidth*0.56)];
 //    self.dragPlayerView.URLString = videodata.mp4_url;
 //    [self.tableview addSubview:self.dragPlayerView];
-//    self.dragPlayerView.closeBtn.hidden = NO;
+//    self.dragPlayerView.closeBtn.hidden = YES;
 //    [self.dragPlayerView play];
     
     //创建播放器
@@ -105,7 +105,8 @@
         [self.player removePlayer];
         self.player = nil;
     }
-    CGFloat originY = videoframe.cellH*indexPath.row+videoframe.coverF.origin.y+SCREEN_WIDTH * 0.25;
+//    CGFloat originY = videoframe.cellH*indexPath.row+videoframe.coverF.origin.y+SCREEN_WIDTH * 0.25;
+    CGFloat originY = videoframe.cellH*indexPath.row;
     self.currentOriginY = originY;
     self.player = [[GYPlayer alloc] initWithFrame:CGRectMake(0, originY, SCREEN_WIDTH, SCREEN_WIDTH * 0.56)];
     self.player.mp4_url = videodata.mp4_url;

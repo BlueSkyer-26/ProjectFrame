@@ -141,6 +141,29 @@
 		82ED00451F8F66E900ABEF5A /* JDLVideoFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED00441F8F66E900ABEF5A /* JDLVideoFrame.m */; };
 		82ED00471F8F70BE00ABEF5A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82ED00461F8F70BE00ABEF5A /* AVFoundation.framework */; };
 		82ED00491F8F70CA00ABEF5A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82ED00481F8F70CA00ABEF5A /* AudioToolbox.framework */; };
+		82ED00C21F94AF7600ABEF5A /* TGMoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED00B21F94AF7000ABEF5A /* TGMoreCell.m */; };
+		82ED00C31F94AF7900ABEF5A /* TGMoreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82ED00B31F94AF7000ABEF5A /* TGMoreCell.xib */; };
+		82ED00C41F94AF7C00ABEF5A /* TGMoreLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED00B51F94AF7000ABEF5A /* TGMoreLayout.m */; };
+		82ED00C51F94AF7F00ABEF5A /* TGSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED00B71F94AF7000ABEF5A /* TGSegmentBar.m */; };
+		82ED00C61F94AF8100ABEF5A /* TGSegmentConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED00B91F94AF7000ABEF5A /* TGSegmentConfig.m */; };
+		82ED00C71F94AF8400ABEF5A /* TGSegmentMoreBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED00BB1F94AF7000ABEF5A /* TGSegmentMoreBtn.m */; };
+		82ED00C81F94AF8700ABEF5A /* TGSementBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED00BD1F94AF7000ABEF5A /* TGSementBarVC.m */; };
+		82ED00C91F94AF8900ABEF5A /* TGShowMoreVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED00BF1F94AF7000ABEF5A /* TGShowMoreVC.m */; };
+		82ED00CA1F94AF8C00ABEF5A /* UIView+TGSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED00C11F94AF7000ABEF5A /* UIView+TGSegment.m */; };
+		82ED00CE1F94B0A600ABEF5A /* Test5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED00CD1F94B0A600ABEF5A /* Test5ViewController.m */; };
+		82ED00D41F94B1E400ABEF5A /* JDLBaiSiBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED00D31F94B1E400ABEF5A /* JDLBaiSiBaseViewController.m */; };
+		82ED00D71F95A08E00ABEF5A /* JDLBaseNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED00D61F95A08E00ABEF5A /* JDLBaseNewsCell.m */; };
+		82ED00DA1F95D46600ABEF5A /* JDLAllNewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED00D91F95D46600ABEF5A /* JDLAllNewsModel.m */; };
+		82ED00DD1F95DBD800ABEF5A /* JDLUserMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED00DC1F95DBD800ABEF5A /* JDLUserMessageModel.m */; };
+		82ED00E01F95F21900ABEF5A /* NSDate+calender.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED00DF1F95F21900ABEF5A /* NSDate+calender.m */; };
+		82ED00E71F95F43B00ABEF5A /* JDLTimeUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED00E61F95F43B00ABEF5A /* JDLTimeUpdate.m */; };
+		82ED00EA1F96E18000ABEF5A /* JDLAllNewsFrameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED00E91F96E18000ABEF5A /* JDLAllNewsFrameModel.m */; };
+		82ED00F01F971EBE00ABEF5A /* JDLVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED00EF1F971EBE00ABEF5A /* JDLVideoView.m */; };
+		82ED00F31F971ED800ABEF5A /* JDLGifOrPngView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED00F21F971ED800ABEF5A /* JDLGifOrPngView.m */; };
+		82ED00FD1F99E8DC00ABEF5A /* UITableView+FDIndexPathHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED00F61F99E8D300ABEF5A /* UITableView+FDIndexPathHeightCache.m */; };
+		82ED00FE1F99E8DF00ABEF5A /* UITableView+FDKeyedHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED00F81F99E8D300ABEF5A /* UITableView+FDKeyedHeightCache.m */; };
+		82ED00FF1F99E8E200ABEF5A /* UITableView+FDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED00FA1F99E8D300ABEF5A /* UITableView+FDTemplateLayoutCell.m */; };
+		82ED01001F99E8E500ABEF5A /* UITableView+FDTemplateLayoutCellDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED00FC1F99E8D300ABEF5A /* UITableView+FDTemplateLayoutCellDebug.m */; };
 		82EDFFF01F8F027200ABEF5A /* WMMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EDFFE71F8F026500ABEF5A /* WMMenuItem.m */; };
 		82EDFFF11F8F027500ABEF5A /* WMMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EDFFE91F8F026500ABEF5A /* WMMenuView.m */; };
 		82EDFFF21F8F027700ABEF5A /* WMProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EDFFEB1F8F026500ABEF5A /* WMProgressView.m */; };
@@ -432,6 +455,51 @@
 		82ED00441F8F66E900ABEF5A /* JDLVideoFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDLVideoFrame.m; sourceTree = "<group>"; };
 		82ED00461F8F70BE00ABEF5A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		82ED00481F8F70CA00ABEF5A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		82ED00B11F94AF7000ABEF5A /* TGMoreCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGMoreCell.h; sourceTree = "<group>"; };
+		82ED00B21F94AF7000ABEF5A /* TGMoreCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGMoreCell.m; sourceTree = "<group>"; };
+		82ED00B31F94AF7000ABEF5A /* TGMoreCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TGMoreCell.xib; sourceTree = "<group>"; };
+		82ED00B41F94AF7000ABEF5A /* TGMoreLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGMoreLayout.h; sourceTree = "<group>"; };
+		82ED00B51F94AF7000ABEF5A /* TGMoreLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGMoreLayout.m; sourceTree = "<group>"; };
+		82ED00B61F94AF7000ABEF5A /* TGSegmentBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGSegmentBar.h; sourceTree = "<group>"; };
+		82ED00B71F94AF7000ABEF5A /* TGSegmentBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGSegmentBar.m; sourceTree = "<group>"; };
+		82ED00B81F94AF7000ABEF5A /* TGSegmentConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGSegmentConfig.h; sourceTree = "<group>"; };
+		82ED00B91F94AF7000ABEF5A /* TGSegmentConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGSegmentConfig.m; sourceTree = "<group>"; };
+		82ED00BA1F94AF7000ABEF5A /* TGSegmentMoreBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGSegmentMoreBtn.h; sourceTree = "<group>"; };
+		82ED00BB1F94AF7000ABEF5A /* TGSegmentMoreBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGSegmentMoreBtn.m; sourceTree = "<group>"; };
+		82ED00BC1F94AF7000ABEF5A /* TGSementBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGSementBarVC.h; sourceTree = "<group>"; };
+		82ED00BD1F94AF7000ABEF5A /* TGSementBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGSementBarVC.m; sourceTree = "<group>"; };
+		82ED00BE1F94AF7000ABEF5A /* TGShowMoreVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGShowMoreVC.h; sourceTree = "<group>"; };
+		82ED00BF1F94AF7000ABEF5A /* TGShowMoreVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGShowMoreVC.m; sourceTree = "<group>"; };
+		82ED00C01F94AF7000ABEF5A /* UIView+TGSegment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+TGSegment.h"; sourceTree = "<group>"; };
+		82ED00C11F94AF7000ABEF5A /* UIView+TGSegment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+TGSegment.m"; sourceTree = "<group>"; };
+		82ED00CC1F94B0A600ABEF5A /* Test5ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test5ViewController.h; sourceTree = "<group>"; };
+		82ED00CD1F94B0A600ABEF5A /* Test5ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test5ViewController.m; sourceTree = "<group>"; };
+		82ED00D21F94B1E400ABEF5A /* JDLBaiSiBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDLBaiSiBaseViewController.h; sourceTree = "<group>"; };
+		82ED00D31F94B1E400ABEF5A /* JDLBaiSiBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDLBaiSiBaseViewController.m; sourceTree = "<group>"; };
+		82ED00D51F95A08E00ABEF5A /* JDLBaseNewsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDLBaseNewsCell.h; sourceTree = "<group>"; };
+		82ED00D61F95A08E00ABEF5A /* JDLBaseNewsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDLBaseNewsCell.m; sourceTree = "<group>"; };
+		82ED00D81F95D46600ABEF5A /* JDLAllNewsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDLAllNewsModel.h; sourceTree = "<group>"; };
+		82ED00D91F95D46600ABEF5A /* JDLAllNewsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDLAllNewsModel.m; sourceTree = "<group>"; };
+		82ED00DB1F95DBD800ABEF5A /* JDLUserMessageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDLUserMessageModel.h; sourceTree = "<group>"; };
+		82ED00DC1F95DBD800ABEF5A /* JDLUserMessageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDLUserMessageModel.m; sourceTree = "<group>"; };
+		82ED00DE1F95F21900ABEF5A /* NSDate+calender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+calender.h"; sourceTree = "<group>"; };
+		82ED00DF1F95F21900ABEF5A /* NSDate+calender.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+calender.m"; sourceTree = "<group>"; };
+		82ED00E51F95F43B00ABEF5A /* JDLTimeUpdate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDLTimeUpdate.h; sourceTree = "<group>"; };
+		82ED00E61F95F43B00ABEF5A /* JDLTimeUpdate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDLTimeUpdate.m; sourceTree = "<group>"; };
+		82ED00E81F96E18000ABEF5A /* JDLAllNewsFrameModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDLAllNewsFrameModel.h; sourceTree = "<group>"; };
+		82ED00E91F96E18000ABEF5A /* JDLAllNewsFrameModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDLAllNewsFrameModel.m; sourceTree = "<group>"; };
+		82ED00EE1F971EBE00ABEF5A /* JDLVideoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDLVideoView.h; sourceTree = "<group>"; };
+		82ED00EF1F971EBE00ABEF5A /* JDLVideoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDLVideoView.m; sourceTree = "<group>"; };
+		82ED00F11F971ED800ABEF5A /* JDLGifOrPngView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDLGifOrPngView.h; sourceTree = "<group>"; };
+		82ED00F21F971ED800ABEF5A /* JDLGifOrPngView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDLGifOrPngView.m; sourceTree = "<group>"; };
+		82ED00F51F99E8D300ABEF5A /* UITableView+FDIndexPathHeightCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDIndexPathHeightCache.h"; sourceTree = "<group>"; };
+		82ED00F61F99E8D300ABEF5A /* UITableView+FDIndexPathHeightCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDIndexPathHeightCache.m"; sourceTree = "<group>"; };
+		82ED00F71F99E8D300ABEF5A /* UITableView+FDKeyedHeightCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDKeyedHeightCache.h"; sourceTree = "<group>"; };
+		82ED00F81F99E8D300ABEF5A /* UITableView+FDKeyedHeightCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDKeyedHeightCache.m"; sourceTree = "<group>"; };
+		82ED00F91F99E8D300ABEF5A /* UITableView+FDTemplateLayoutCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell.h"; sourceTree = "<group>"; };
+		82ED00FA1F99E8D300ABEF5A /* UITableView+FDTemplateLayoutCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCell.m"; sourceTree = "<group>"; };
+		82ED00FB1F99E8D300ABEF5A /* UITableView+FDTemplateLayoutCellDebug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCellDebug.h"; sourceTree = "<group>"; };
+		82ED00FC1F99E8D300ABEF5A /* UITableView+FDTemplateLayoutCellDebug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCellDebug.m"; sourceTree = "<group>"; };
 		82EDFFE61F8F026500ABEF5A /* WMMenuItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMMenuItem.h; sourceTree = "<group>"; };
 		82EDFFE71F8F026500ABEF5A /* WMMenuItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMMenuItem.m; sourceTree = "<group>"; };
 		82EDFFE81F8F026500ABEF5A /* WMMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMMenuView.h; sourceTree = "<group>"; };
@@ -755,6 +823,7 @@
 		821CDFF51F79E5AF00CC0AED /* ThirdLib */ = {
 			isa = PBXGroup;
 			children = (
+				82ED00F41F99E8D300ABEF5A /* FDTemplateLayoutCell */,
 				82EDFFE41F8F026500ABEF5A /* WMPageController */,
 				820882151F7E2A72000B898B /* SDCycleScrollView */,
 				82C8E44B1F7A4F8000514591 /* MJRefresh */,
@@ -769,6 +838,8 @@
 		821CDFF61F79E5CC00CC0AED /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				82ED00E41F95F3BD00ABEF5A /* JDLTimeUpdate */,
+				82ED00B01F94AF7000ABEF5A /* TGSegment */,
 				82ED00221F8F58C000ABEF5A /* VideoPlayer */,
 				82ED000D1F8F52A400ABEF5A /* RefreshCustom */,
 				820882351F7F2FD4000B898B /* LoadingView */,
@@ -790,6 +861,7 @@
 		821CDFF71F79E5D500CC0AED /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				82ED00CB1F94B07800ABEF5A /* Test5 */,
 				820882391F7F33EE000B898B /* Main(管理类) */,
 				82C8E4171F7A038400514591 /* Test4 */,
 				82C8E4161F7A037C00514591 /* Test3 */,
@@ -921,6 +993,8 @@
 				820832F71F7C984100F9A5C4 /* UILabel+JLAdd.m */,
 				820882461F7F79B5000B898B /* UICollectionViewCell+updateModel.h */,
 				820882471F7F79B5000B898B /* UICollectionViewCell+updateModel.m */,
+				82ED00DE1F95F21900ABEF5A /* NSDate+calender.h */,
+				82ED00DF1F95F21900ABEF5A /* NSDate+calender.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -1254,6 +1328,101 @@
 			path = GYHPhotoLoadingView;
 			sourceTree = "<group>";
 		};
+		82ED00B01F94AF7000ABEF5A /* TGSegment */ = {
+			isa = PBXGroup;
+			children = (
+				82ED00B11F94AF7000ABEF5A /* TGMoreCell.h */,
+				82ED00B21F94AF7000ABEF5A /* TGMoreCell.m */,
+				82ED00B31F94AF7000ABEF5A /* TGMoreCell.xib */,
+				82ED00B41F94AF7000ABEF5A /* TGMoreLayout.h */,
+				82ED00B51F94AF7000ABEF5A /* TGMoreLayout.m */,
+				82ED00B61F94AF7000ABEF5A /* TGSegmentBar.h */,
+				82ED00B71F94AF7000ABEF5A /* TGSegmentBar.m */,
+				82ED00B81F94AF7000ABEF5A /* TGSegmentConfig.h */,
+				82ED00B91F94AF7000ABEF5A /* TGSegmentConfig.m */,
+				82ED00BA1F94AF7000ABEF5A /* TGSegmentMoreBtn.h */,
+				82ED00BB1F94AF7000ABEF5A /* TGSegmentMoreBtn.m */,
+				82ED00BC1F94AF7000ABEF5A /* TGSementBarVC.h */,
+				82ED00BD1F94AF7000ABEF5A /* TGSementBarVC.m */,
+				82ED00BE1F94AF7000ABEF5A /* TGShowMoreVC.h */,
+				82ED00BF1F94AF7000ABEF5A /* TGShowMoreVC.m */,
+				82ED00C01F94AF7000ABEF5A /* UIView+TGSegment.h */,
+				82ED00C11F94AF7000ABEF5A /* UIView+TGSegment.m */,
+			);
+			path = TGSegment;
+			sourceTree = "<group>";
+		};
+		82ED00CB1F94B07800ABEF5A /* Test5 */ = {
+			isa = PBXGroup;
+			children = (
+				82ED00D11F94B1C500ABEF5A /* Controller */,
+				82ED00D01F94B1C100ABEF5A /* View */,
+				82ED00CF1F94B1BC00ABEF5A /* Model */,
+				82ED00CC1F94B0A600ABEF5A /* Test5ViewController.h */,
+				82ED00CD1F94B0A600ABEF5A /* Test5ViewController.m */,
+			);
+			path = Test5;
+			sourceTree = "<group>";
+		};
+		82ED00CF1F94B1BC00ABEF5A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				82ED00D81F95D46600ABEF5A /* JDLAllNewsModel.h */,
+				82ED00D91F95D46600ABEF5A /* JDLAllNewsModel.m */,
+				82ED00DB1F95DBD800ABEF5A /* JDLUserMessageModel.h */,
+				82ED00DC1F95DBD800ABEF5A /* JDLUserMessageModel.m */,
+				82ED00E81F96E18000ABEF5A /* JDLAllNewsFrameModel.h */,
+				82ED00E91F96E18000ABEF5A /* JDLAllNewsFrameModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		82ED00D01F94B1C100ABEF5A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				82ED00D51F95A08E00ABEF5A /* JDLBaseNewsCell.h */,
+				82ED00D61F95A08E00ABEF5A /* JDLBaseNewsCell.m */,
+				82ED00EE1F971EBE00ABEF5A /* JDLVideoView.h */,
+				82ED00EF1F971EBE00ABEF5A /* JDLVideoView.m */,
+				82ED00F11F971ED800ABEF5A /* JDLGifOrPngView.h */,
+				82ED00F21F971ED800ABEF5A /* JDLGifOrPngView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		82ED00D11F94B1C500ABEF5A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				82ED00D21F94B1E400ABEF5A /* JDLBaiSiBaseViewController.h */,
+				82ED00D31F94B1E400ABEF5A /* JDLBaiSiBaseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		82ED00E41F95F3BD00ABEF5A /* JDLTimeUpdate */ = {
+			isa = PBXGroup;
+			children = (
+				82ED00E51F95F43B00ABEF5A /* JDLTimeUpdate.h */,
+				82ED00E61F95F43B00ABEF5A /* JDLTimeUpdate.m */,
+			);
+			path = JDLTimeUpdate;
+			sourceTree = "<group>";
+		};
+		82ED00F41F99E8D300ABEF5A /* FDTemplateLayoutCell */ = {
+			isa = PBXGroup;
+			children = (
+				82ED00F51F99E8D300ABEF5A /* UITableView+FDIndexPathHeightCache.h */,
+				82ED00F61F99E8D300ABEF5A /* UITableView+FDIndexPathHeightCache.m */,
+				82ED00F71F99E8D300ABEF5A /* UITableView+FDKeyedHeightCache.h */,
+				82ED00F81F99E8D300ABEF5A /* UITableView+FDKeyedHeightCache.m */,
+				82ED00F91F99E8D300ABEF5A /* UITableView+FDTemplateLayoutCell.h */,
+				82ED00FA1F99E8D300ABEF5A /* UITableView+FDTemplateLayoutCell.m */,
+				82ED00FB1F99E8D300ABEF5A /* UITableView+FDTemplateLayoutCellDebug.h */,
+				82ED00FC1F99E8D300ABEF5A /* UITableView+FDTemplateLayoutCellDebug.m */,
+			);
+			path = FDTemplateLayoutCell;
+			sourceTree = "<group>";
+		};
 		82EDFFE41F8F026500ABEF5A /* WMPageController */ = {
 			isa = PBXGroup;
 			children = (
@@ -1398,6 +1567,7 @@
 		821CDFB51F79E37200CC0AED /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JDL;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "BlueSkyer-25";
 				TargetAttributes = {
@@ -1443,6 +1613,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				821CDFD01F79E37200CC0AED /* LaunchScreen.storyboard in Resources */,
+				82ED00C31F94AF7900ABEF5A /* TGMoreCell.xib in Resources */,
 				82C8E3FC1F7A01BA00514591 /* MBProgressHUD.bundle in Resources */,
 				82ED00341F8F5DEB00ABEF5A /* FastForwardView.xib in Resources */,
 				821CDFCD1F79E37200CC0AED /* Assets.xcassets in Resources */,
@@ -1533,10 +1704,14 @@
 				820832F01F7C96F100F9A5C4 /* BaseTableView.m in Sources */,
 				82C8E4371F7A10A100514591 /* CYLTabBar.m in Sources */,
 				82C8E40D1F7A022400514591 /* UIButton+WebCache.m in Sources */,
+				82ED00E01F95F21900ABEF5A /* NSDate+calender.m in Sources */,
 				82C8E4801F7A4FDC00514591 /* MJRefreshAutoGifFooter.m in Sources */,
+				82ED00C41F94AF7C00ABEF5A /* TGMoreLayout.m in Sources */,
 				820882251F7E2A7B000B898B /* SDCycleScrollView.m in Sources */,
 				820882311F7E4753000B898B /* JDLRequestTools.m in Sources */,
 				82EDFFF41F8F027D00ABEF5A /* WMPageController.m in Sources */,
+				82ED00F31F971ED800ABEF5A /* JDLGifOrPngView.m in Sources */,
+				82ED00F01F971EBE00ABEF5A /* JDLVideoView.m in Sources */,
 				820882271F7E2A80000B898B /* TAAnimatedDotView.m in Sources */,
 				82ED00401F8F632900ABEF5A /* GYHCircleLoadingView.m in Sources */,
 				82C8E41D1F7A03B700514591 /* Test3ViewController.m in Sources */,
@@ -1557,12 +1732,15 @@
 				820832F31F7C96F800F9A5C4 /* BaseTextView.m in Sources */,
 				821CE04D1F79EA6000CC0AED /* BaseWebViewController.m in Sources */,
 				82C8E4131F7A023200514591 /* UIView+WebCacheOperation.m in Sources */,
+				82ED00FE1F99E8DF00ABEF5A /* UITableView+FDKeyedHeightCache.m in Sources */,
 				82C8E4841F7A4FEC00514591 /* MJRefreshBackNormalFooter.m in Sources */,
 				82C8E4941F7B38C500514591 /* PPNetworkHelper.m in Sources */,
 				82C8E49F1F7B39B200514591 /* OpenUDID.m in Sources */,
 				820832F41F7C96FB00F9A5C4 /* BaseTranslucenView.m in Sources */,
+				82ED00C61F94AF8100ABEF5A /* TGSegmentConfig.m in Sources */,
 				820832F21F7C96F600F9A5C4 /* BaseTextField.m in Sources */,
 				821CE04A1F79EA2F00CC0AED /* BaseViewController.m in Sources */,
+				82ED00D41F94B1E400ABEF5A /* JDLBaiSiBaseViewController.m in Sources */,
 				82ED00021F8F35B000ABEF5A /* JDLSocietyNewsModel.m in Sources */,
 				82C8E4121F7A022F00514591 /* UIImageView+WebCache.m in Sources */,
 				82EDFFF21F8F027700ABEF5A /* WMProgressView.m in Sources */,
@@ -1575,13 +1753,17 @@
 				82EDFFF31F8F027B00ABEF5A /* WMScrollView.m in Sources */,
 				82C8E47C1F7A4FC300514591 /* NSBundle+MJRefresh.m in Sources */,
 				82C8E4101F7A022B00514591 /* UIImage+WebP.m in Sources */,
+				82ED00C81F94AF8700ABEF5A /* TGSementBarVC.m in Sources */,
+				82ED00DA1F95D46600ABEF5A /* JDLAllNewsModel.m in Sources */,
 				820832EE1F7C96ED00F9A5C4 /* BaseImageView.m in Sources */,
 				82C8E4481F7A3BE700514591 /* AppDelegate+PushService.m in Sources */,
 				820832ED1F7C96EA00F9A5C4 /* BaseButton.m in Sources */,
 				82C8E4861F7A4FF500514591 /* MJRefreshGifHeader.m in Sources */,
 				820832DA1F7C962F00F9A5C4 /* JDLFactory.m in Sources */,
+				82ED00C91F94AF8900ABEF5A /* TGShowMoreVC.m in Sources */,
 				82EDFFF11F8F027500ABEF5A /* WMMenuView.m in Sources */,
 				820832D41F7C84A400F9A5C4 /* JDLHomeUIService.m in Sources */,
+				82ED00FD1F99E8DC00ABEF5A /* UITableView+FDIndexPathHeightCache.m in Sources */,
 				82C8E4851F7A4FEE00514591 /* MJRefreshBackStateFooter.m in Sources */,
 				82C8E4061F7A020C00514591 /* SDImageCache.m in Sources */,
 				8203A1CF1F8E0EB80075E123 /* JDLSocietyViewController.m in Sources */,
@@ -1592,11 +1774,14 @@
 				82C8E40F1F7A022900514591 /* UIImage+MultiFormat.m in Sources */,
 				820832F51F7C96FF00F9A5C4 /* BaseView.m in Sources */,
 				82C8E40A1F7A021800514591 /* SDWebImageDownloaderOperation.m in Sources */,
+				82ED01001F99E8E500ABEF5A /* UITableView+FDTemplateLayoutCellDebug.m in Sources */,
 				82C8E4111F7A022D00514591 /* UIImageView+HighlightedWebCache.m in Sources */,
 				82C8E4421F7A342100514591 /* AppDelegate+AppService.m in Sources */,
 				820882141F7E1DC9000B898B /* JDLHomeScrollviewCell.m in Sources */,
 				820832CB1F7C82A700F9A5C4 /* JDLBaseService.m in Sources */,
+				82ED00FF1F99E8E200ABEF5A /* UITableView+FDTemplateLayoutCell.m in Sources */,
 				82ED001E1F8F547F00ABEF5A /* JDLRefreshGifFooter.m in Sources */,
+				82ED00C51F94AF7F00ABEF5A /* TGSegmentBar.m in Sources */,
 				82C8E4A71F7B47CC00514591 /* AdPageView.m in Sources */,
 				820882291F7E2A86000B898B /* TAPageControl.m in Sources */,
 				82C8E4981F7B394D00514591 /* AESCipher.m in Sources */,
@@ -1605,12 +1790,17 @@
 				82C8E3FB1F7A018D00514591 /* UINavigationBar+alpha.m in Sources */,
 				82ED002E1F8F58D900ABEF5A /* WMLightView.m in Sources */,
 				82ED00331F8F59A800ABEF5A /* WMDragView.m in Sources */,
+				82ED00C71F94AF8400ABEF5A /* TGSegmentMoreBtn.m in Sources */,
+				82ED00D71F95A08E00ABEF5A /* JDLBaseNewsCell.m in Sources */,
 				8208822A1F7E2A88000B898B /* UIView+SDExtension.m in Sources */,
 				82C8E47F1F7A4FCD00514591 /* UIView+MJExtension.m in Sources */,
 				82C8E48A1F7A500400514591 /* MJRefreshBackFooter.m in Sources */,
 				82C8E3F61F7A015200514591 /* MBProgressHUD.m in Sources */,
 				82C8E4051F7A020900514591 /* NSData+ImageContentType.m in Sources */,
 				82C8E4931F7B38C200514591 /* PPNetworkCache.m in Sources */,
+				82ED00C21F94AF7600ABEF5A /* TGMoreCell.m in Sources */,
+				82ED00DD1F95DBD800ABEF5A /* JDLUserMessageModel.m in Sources */,
+				82ED00EA1F96E18000ABEF5A /* JDLAllNewsFrameModel.m in Sources */,
 				82C8E48D1F7A500E00514591 /* MJRefreshHeader.m in Sources */,
 				82ED00411F8F632C00ABEF5A /* GYHCircleProgressView.m in Sources */,
 				82C8E41A1F7A03A500514591 /* Test4ViewController.m in Sources */,
@@ -1628,6 +1818,7 @@
 				820882451F7F6598000B898B /* JDLListBaseModel.m in Sources */,
 				82C8E43B1F7A10AC00514591 /* UIView+CYLTabBarControllerExtention.m in Sources */,
 				820882341F7F280A000B898B /* JDLJSONResponseSerializer.m in Sources */,
+				82ED00CA1F94AF8C00ABEF5A /* UIView+TGSegment.m in Sources */,
 				820832EF1F7C96EF00F9A5C4 /* BaseLabel.m in Sources */,
 				82ED00301F8F58DF00ABEF5A /* WMPlayer.m in Sources */,
 				8208822D1F7E4484000B898B /* JDLHomeViewModel.m in Sources */,
@@ -1639,9 +1830,11 @@
 				82C8E4261F7A043600514591 /* JDLTabbarController.m in Sources */,
 				82ED00451F8F66E900ABEF5A /* JDLVideoFrame.m in Sources */,
 				82C8E4811F7A4FDF00514591 /* MJRefreshAutoNormalFooter.m in Sources */,
+				82ED00E71F95F43B00ABEF5A /* JDLTimeUpdate.m in Sources */,
 				82C8E4AF1F7B58DA00514591 /* UserGuideViewController.m in Sources */,
 				82C8E43C1F7A10B000514591 /* UIViewController+CYLTabBarControllerExtention.m in Sources */,
 				82ED00101F8F530300ABEF5A /* JDLRefreshGifHeader.m in Sources */,
+				82ED00CE1F94B0A600ABEF5A /* Test5ViewController.m in Sources */,
 				82C8E40C1F7A022100514591 /* SDWebImagePrefetcher.m in Sources */,
 				82C8E4201F7A03C100514591 /* JDLNewsViewController.m in Sources */,
 				82C8E4041F7A020600514591 /* MKAnnotationView+WebCache.m in Sources */,
@@ -1813,7 +2006,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P9TSVR4F6P;
+				DEVELOPMENT_TEAM = LN3JN285VC;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = /Users/shengxuandianzi/Desktop/MyProject/ProjectFrame/ProjectFrame/Common/ProjectFramePch.pch;
@@ -1832,7 +2025,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P9TSVR4F6P;
+				DEVELOPMENT_TEAM = LN3JN285VC;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = /Users/shengxuandianzi/Desktop/MyProject/ProjectFrame/ProjectFrame/Common/ProjectFramePch.pch;
